@@ -1,0 +1,100 @@
+AutoTest_ABBA.autoRandSingleTest: [src | tgt ] = [BABAAAABA | AAAABABBBABABBAA ] ==> Impossible
+
+
+AutoTest_ABBA.autoRandMultipleTests: Conducting Test #1 -->
+AutoTest_ABBA.autoRandSingleTest: [src | tgt ] = [ABBBBAA | BAABBAABAAABBBAAB ] ==> Impossible
+AutoTest_ABBA.autoRandMultipleTests: <-- Test #1 Ended
+
+
+AutoTest_ABBA.autoRandMultipleTests: Conducting Test #2 -->
+AutoTest_ABBA.autoRandSingleTest: [src | tgt ] = [BBABB | ABBABAAB ] ==> Impossible
+AutoTest_ABBA.autoRandMultipleTests: <-- Test #2 Ended
+
+
+AutoTest_ABBA.autoRandMultipleTests: Conducting Test #3 -->
+AutoTest_ABBA.autoRandSingleTest: [src | tgt ] = [A | AAAABBAB ] ==> Impossible
+AutoTest_ABBA.autoRandMultipleTests: <-- Test #3 Ended
+
+
+AutoTest_ABBA.autoRandMultipleTests: Conducting Test #4 -->
+AutoTest_ABBA.autoRandSingleTest: [src | tgt ] = [AABBAB | ABAABBBAAB ] ==> Impossible
+AutoTest_ABBA.autoRandMultipleTests: <-- Test #4 Ended
+
+
+AutoTest_ABBA.autoRandMultipleTests: Conducting Test #5 -->
+AutoTest_ABBA.autoRandSingleTest: [src | tgt ] = [BB | ABBAAABBAABABABA ] ==> Impossible
+AutoTest_ABBA.autoRandMultipleTests: <-- Test #5 Ended
+
+
+AutoTest_ABBA.autoRandMultipleTests: Conducting Test #6 -->
+AutoTest_ABBA.autoRandSingleTest: [src | tgt ] = [AA | ABBBAAAA ] ==> Impossible
+AutoTest_ABBA.autoRandMultipleTests: <-- Test #6 Ended
+
+
+AutoTest_ABBA.autoRandMultipleTests: Conducting Test #7 -->
+AutoTest_ABBA.autoRandSingleTest: [src | tgt ] = [A | ABABBAABAAABABBA ] ==> Possible
+AutoTest_ABBA.autoRandMultipleTests: <-- Test #7 Ended
+
+
+AutoTest_ABBA.autoRandMultipleTests: Conducting Test #8 -->
+AutoTest_ABBA.autoRandSingleTest: [src | tgt ] = [BAABBBB | BAABBABAAB ] ==> Impossible
+AutoTest_ABBA.autoRandMultipleTests: <-- Test #8 Ended
+
+
+AutoTest_ABBA.autoRandMultipleTests: Conducting Test #9 -->
+AutoTest_ABBA.autoRandSingleTest: [src | tgt ] = [ABBAABA | BABABBABBAAAAAAB ] ==> Impossible
+AutoTest_ABBA.autoRandMultipleTests: <-- Test #9 Ended
+
+
+AutoTest_ABBA.autoRandMultipleTests: Conducting Test #10 -->
+AutoTest_ABBA.autoRandSingleTest: [src | tgt ] = [ABAAAAAA | ABBABAAABBBABBBBAA ] ==> Impossible
+AutoTest_ABBA.autoRandMultipleTests: <-- Test #10 Ended
+
+
+AutoTest_ABBA.autoRandMultipleTests: Conducting Test #11 -->
+AutoTest_ABBA.autoRandSingleTest: [src | tgt ] = [ABBBBA | ABBBABABABABBBBBAA ] ==> Impossible
+AutoTest_ABBA.autoRandMultipleTests: <-- Test #11 Ended
+
+
+AutoTest_ABBA.autoRandMultipleTests: Conducting Test #12 -->
+AutoTest_ABBA.autoRandSingleTest: [src | tgt ] = [BBBBBBBB | BABBAAAAB ] ==> Impossible
+AutoTest_ABBA.autoRandMultipleTests: <-- Test #12 Ended
+
+
+AutoTest_ABBA.autoRandMultipleTests: Conducting Test #13 -->
+AutoTest_ABBA.autoRandSingleTest: [src | tgt ] = [AAAAAAAAA | BABBBBBBAABABABABBA ] ==> Impossible
+AutoTest_ABBA.autoRandMultipleTests: <-- Test #13 Ended
+
+
+AutoTest_ABBA.autoRandMultipleTests: Conducting Test #14 -->
+AutoTest_ABBA.autoRandSingleTest: [src | tgt ] = [AAAAA | BBABABBBBABBBBBBAA ] ==> Impossible
+AutoTest_ABBA.autoRandMultipleTests: <-- Test #14 Ended
+
+
+AutoTest_ABBA.autoRandMultipleTests: Conducting Test #15 -->
+AutoTest_ABBA.autoRandSingleTest: [src | tgt ] = [BBA | BBBBAAAA ] ==> Impossible
+AutoTest_ABBA.autoRandMultipleTests: <-- Test #15 Ended
+
+
+AutoTest_ABBA.autoRandMultipleTests: Conducting Test #16 -->
+AutoTest_ABBA.autoRandSingleTest: [src | tgt ] = [A | AABAABAA ] ==> Possible
+AutoTest_ABBA.autoRandMultipleTests: <-- Test #16 Ended
+
+
+
+
+AutoTest_ABBA.autoTest_SpecificCases: [srcs[0] | tgts[0]] = [B | ABBA] ... Result = >Possible<
+
+
+AutoTest_ABBA.autoTest_SpecificCases: [srcs[1] | tgts[1]] = [AB | ABB] ... Result = >Impossible<
+
+
+AutoTest_ABBA.autoTest_SpecificCases: [srcs[2] | tgts[2]] = [BBAB | ABABABABB] ... Result = >Impossible<
+
+
+AutoTest_ABBA.autoTest_SpecificCases: [srcs[3] | tgts[3]] = [BBBBABABBBBBBA | BBBBABABBABBBBBBABABBBBBBBBABAABBBAA] ... Result = >Possible<
+
+
+AutoTest_ABBA.autoTest_SpecificCases: [srcs[4] | tgts[4]] = [A | BB] ... Result = >Impossible<
+
+
