@@ -1,0 +1,1206 @@
+AutoTest_ANewHope.AutoRandSingleTest: {NumDaysPerWeek | D | b_FWLW_EqualFlag | b_FWLW_ReverseEqualFlag} = {9 | 5 | False | False}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {0 | 8 | 4}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {1 | 5 | 2}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {2 | 4 | 7}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {3 | 7 | 3}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {4 | 6 | 5}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {5 | 2 | 8}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {6 | 1 | 6}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {7 | 9 | 1}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {8 | 3 | 9}
+
+
+ANewHope.count_DLL ...
+ConstructCheckOverlapDictForLevel(0) ... BEFORE CONSTRUCTION ... ... Printing Dictionaries ... D_BEGIN_>>
+ANewHope.PrintDictsTMP: Dict_FWD_BCK_Overlap (Count=0) BEGIN
+Dict_FWD_BCK_Overlap END
+
+ANewHope.PrintDictsTMP: DLL_FWFWD_Explorer (Count=9) BEGIN
+DLL_FWFWD_Explorer[1] = >
+[List] @ DLL_FWFWD_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 6] // <
+DLL_FWFWD_Explorer[2] = >
+[List] @ DLL_FWFWD_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 5] // <
+DLL_FWFWD_Explorer[3] = >
+[List] @ DLL_FWFWD_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [4 | 8] // <
+DLL_FWFWD_Explorer[4] = >
+[List] @ DLL_FWFWD_Explorer[4].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [7 | 2] // <
+DLL_FWFWD_Explorer[5] = >
+[List] @ DLL_FWFWD_Explorer[5].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [6 | 1] // <
+DLL_FWFWD_Explorer[6] = >
+[List] @ DLL_FWFWD_Explorer[6].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 4] // <
+DLL_FWFWD_Explorer[7] = >
+[List] @ DLL_FWFWD_Explorer[7].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [8 | 3] // <
+DLL_FWFWD_Explorer[8] = >
+[List] @ DLL_FWFWD_Explorer[8].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [5 | 0] // <
+DLL_FWFWD_Explorer[9] = >
+[List] @ DLL_FWFWD_Explorer[9].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [3 | 7] // <
+DLL_FWFWD_Explorer END
+
+ANewHope.PrintDictsTMP: DLL_LWBCK_Explorer (Count=9) BEGIN
+DLL_LWBCK_Explorer[1] = >
+[List] @ DLL_LWBCK_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [7 | 2] // <
+
+DLL_LWBCK_Explorer[2] = >
+[List] @ DLL_LWBCK_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 5] // <
+
+DLL_LWBCK_Explorer[3] = >
+[List] @ DLL_LWBCK_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [3 | 7] // <
+
+DLL_LWBCK_Explorer[4] = >
+[List] @ DLL_LWBCK_Explorer[4].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 4] // <
+
+DLL_LWBCK_Explorer[5] = >
+[List] @ DLL_LWBCK_Explorer[5].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [4 | 8] // <
+
+DLL_LWBCK_Explorer[6] = >
+[List] @ DLL_LWBCK_Explorer[6].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [6 | 1] // <
+
+DLL_LWBCK_Explorer[7] = >
+[List] @ DLL_LWBCK_Explorer[7].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 6] // <
+
+DLL_LWBCK_Explorer[8] = >
+[List] @ DLL_LWBCK_Explorer[8].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [5 | 0] // <
+
+DLL_LWBCK_Explorer[9] = >
+[List] @ DLL_LWBCK_Explorer[9].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [8 | 3] // <
+
+DLL_LWBCK_Explorer END
+ConstructCheckOverlapDictForLevel(0) ... BEFORE CONSTRUCTION ... ... <<_D_END
+
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [1 | 5], [RFTPIndex | LFTPIndex] = [1 | 5]) --> TRUE @ Index=1
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [4 | 8], [RFTPIndex | LFTPIndex] = [3 | 7]) --> TRUE @ Index=4
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [7 | 2], [RFTPIndex | LFTPIndex] = [0 | 4]) --> TRUE @ Index=0
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [6 | 1], [RFTPIndex | LFTPIndex] = [4 | 8]) --> TRUE @ Index=6
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [8 | 3], [RFTPIndex | LFTPIndex] = [2 | 6]) --> TRUE @ Index=2
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [5 | 0], [RFTPIndex | LFTPIndex] = [5 | 0]) --> TRUE @ Index=5
+ConstructCheckOverlapDictForLevel(0) ... AFTER CONSTRUCTION ... ... Printing Dictionaries ... D_BEGIN_>>
+ANewHope.PrintDictsTMP: Dict_FWD_BCK_Overlap (Count=6) BEGIN
+Dict_FWD_BCK_Overlap[2] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [1 | 5] | [RFTPIndex | LFTPIndex] = [1 | 5]}<
+Dict_FWD_BCK_Overlap[3] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [4 | 8] | [RFTPIndex | LFTPIndex] = [3 | 7]}<
+Dict_FWD_BCK_Overlap[4] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [7 | 2] | [RFTPIndex | LFTPIndex] = [0 | 4]}<
+Dict_FWD_BCK_Overlap[5] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [6 | 1] | [RFTPIndex | LFTPIndex] = [4 | 8]}<
+Dict_FWD_BCK_Overlap[7] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [8 | 3] | [RFTPIndex | LFTPIndex] = [2 | 6]}<
+Dict_FWD_BCK_Overlap[8] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [5 | 0] | [RFTPIndex | LFTPIndex] = [5 | 0]}<
+Dict_FWD_BCK_Overlap END
+
+ANewHope.PrintDictsTMP: DLL_FWFWD_Explorer (Count=9) BEGIN
+DLL_FWFWD_Explorer[1] = >
+[List] @ DLL_FWFWD_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 6] // <
+DLL_FWFWD_Explorer[2] = >
+[List] @ DLL_FWFWD_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 5] // <
+DLL_FWFWD_Explorer[3] = >
+[List] @ DLL_FWFWD_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [4 | 8] // <
+DLL_FWFWD_Explorer[4] = >
+[List] @ DLL_FWFWD_Explorer[4].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [7 | 2] // <
+DLL_FWFWD_Explorer[5] = >
+[List] @ DLL_FWFWD_Explorer[5].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [6 | 1] // <
+DLL_FWFWD_Explorer[6] = >
+[List] @ DLL_FWFWD_Explorer[6].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 4] // <
+DLL_FWFWD_Explorer[7] = >
+[List] @ DLL_FWFWD_Explorer[7].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [8 | 3] // <
+DLL_FWFWD_Explorer[8] = >
+[List] @ DLL_FWFWD_Explorer[8].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [5 | 0] // <
+DLL_FWFWD_Explorer[9] = >
+[List] @ DLL_FWFWD_Explorer[9].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [3 | 7] // <
+DLL_FWFWD_Explorer END
+
+ANewHope.PrintDictsTMP: DLL_LWBCK_Explorer (Count=9) BEGIN
+DLL_LWBCK_Explorer[1] = >
+[List] @ DLL_LWBCK_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [7 | 2] // <
+
+DLL_LWBCK_Explorer[2] = >
+[List] @ DLL_LWBCK_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 5] // <
+
+DLL_LWBCK_Explorer[3] = >
+[List] @ DLL_LWBCK_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [3 | 7] // <
+
+DLL_LWBCK_Explorer[4] = >
+[List] @ DLL_LWBCK_Explorer[4].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 4] // <
+
+DLL_LWBCK_Explorer[5] = >
+[List] @ DLL_LWBCK_Explorer[5].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [4 | 8] // <
+
+DLL_LWBCK_Explorer[6] = >
+[List] @ DLL_LWBCK_Explorer[6].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [6 | 1] // <
+
+DLL_LWBCK_Explorer[7] = >
+[List] @ DLL_LWBCK_Explorer[7].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 6] // <
+
+DLL_LWBCK_Explorer[8] = >
+[List] @ DLL_LWBCK_Explorer[8].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [5 | 0] // <
+
+DLL_LWBCK_Explorer[9] = >
+[List] @ DLL_LWBCK_Explorer[9].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [8 | 3] // <
+
+DLL_LWBCK_Explorer END
+ConstructCheckOverlapDictForLevel(0) ... AFTER CONSTRUCTION ... ... <<_D_END
+
+ConstructCheckOverlapDictForLevel(1) ... BEFORE CONSTRUCTION ... ... Printing Dictionaries ... D_BEGIN_>>
+ANewHope.PrintDictsTMP: Dict_FWD_BCK_Overlap (Count=0) BEGIN
+Dict_FWD_BCK_Overlap END
+
+ANewHope.PrintDictsTMP: DLL_FWFWD_Explorer (Count=9) BEGIN
+DLL_FWFWD_Explorer[1] = >
+[List] @ DLL_FWFWD_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 6] // [List] @ DLL_FWFWD_Explorer[1].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [7 | 2] // [RFTPIndex | LFTPIndex] = [2 | 6] // <
+DLL_FWFWD_Explorer[2] = >
+[List] @ DLL_FWFWD_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 5] // [List] @ DLL_FWFWD_Explorer[2].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [6 | 1] // [RFTPIndex | LFTPIndex] = [1 | 5] // <
+DLL_FWFWD_Explorer[3] = >
+[List] @ DLL_FWFWD_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [4 | 8] // [List] @ DLL_FWFWD_Explorer[3].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [0 | 4] // [RFTPIndex | LFTPIndex] = [4 | 8] // <
+DLL_FWFWD_Explorer[4] = >
+[List] @ DLL_FWFWD_Explorer[4].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [7 | 2] // [List] @ DLL_FWFWD_Explorer[4].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [3 | 7] // [RFTPIndex | LFTPIndex] = [7 | 2] // <
+DLL_FWFWD_Explorer[5] = >
+[List] @ DLL_FWFWD_Explorer[5].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [6 | 1] // [List] @ DLL_FWFWD_Explorer[5].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [2 | 6] // [RFTPIndex | LFTPIndex] = [6 | 1] // <
+DLL_FWFWD_Explorer[6] = >
+[List] @ DLL_FWFWD_Explorer[6].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 4] // [List] @ DLL_FWFWD_Explorer[6].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [5 | 0] // [RFTPIndex | LFTPIndex] = [0 | 4] // <
+DLL_FWFWD_Explorer[7] = >
+[List] @ DLL_FWFWD_Explorer[7].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [8 | 3] // [List] @ DLL_FWFWD_Explorer[7].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [4 | 8] // [RFTPIndex | LFTPIndex] = [8 | 3] // <
+DLL_FWFWD_Explorer[8] = >
+[List] @ DLL_FWFWD_Explorer[8].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [5 | 0] // [List] @ DLL_FWFWD_Explorer[8].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [1 | 5] // [RFTPIndex | LFTPIndex] = [5 | 0] // <
+DLL_FWFWD_Explorer[9] = >
+[List] @ DLL_FWFWD_Explorer[9].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [3 | 7] // [List] @ DLL_FWFWD_Explorer[9].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [8 | 3] // [RFTPIndex | LFTPIndex] = [3 | 7] // <
+DLL_FWFWD_Explorer END
+
+ANewHope.PrintDictsTMP: DLL_LWBCK_Explorer (Count=9) BEGIN
+DLL_LWBCK_Explorer[1] = >
+[List] @ DLL_LWBCK_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [7 | 2] // [List] @ DLL_LWBCK_Explorer[1].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [2 | 6] // [RFTPIndex | LFTPIndex] = [7 | 2] // <
+
+DLL_LWBCK_Explorer[2] = >
+[List] @ DLL_LWBCK_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 5] // [List] @ DLL_LWBCK_Explorer[2].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [5 | 0] // [RFTPIndex | LFTPIndex] = [1 | 5] // <
+
+DLL_LWBCK_Explorer[3] = >
+[List] @ DLL_LWBCK_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [3 | 7] // [List] @ DLL_LWBCK_Explorer[3].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [7 | 2] // [RFTPIndex | LFTPIndex] = [3 | 7] // <
+
+DLL_LWBCK_Explorer[4] = >
+[List] @ DLL_LWBCK_Explorer[4].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 4] // [List] @ DLL_LWBCK_Explorer[4].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [4 | 8] // [RFTPIndex | LFTPIndex] = [0 | 4] // <
+
+DLL_LWBCK_Explorer[5] = >
+[List] @ DLL_LWBCK_Explorer[5].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [4 | 8] // [List] @ DLL_LWBCK_Explorer[5].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [8 | 3] // [RFTPIndex | LFTPIndex] = [4 | 8] // <
+
+DLL_LWBCK_Explorer[6] = >
+[List] @ DLL_LWBCK_Explorer[6].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [6 | 1] // [List] @ DLL_LWBCK_Explorer[6].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [1 | 5] // [RFTPIndex | LFTPIndex] = [6 | 1] // <
+
+DLL_LWBCK_Explorer[7] = >
+[List] @ DLL_LWBCK_Explorer[7].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 6] // [List] @ DLL_LWBCK_Explorer[7].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [6 | 1] // [RFTPIndex | LFTPIndex] = [2 | 6] // <
+
+DLL_LWBCK_Explorer[8] = >
+[List] @ DLL_LWBCK_Explorer[8].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [5 | 0] // [List] @ DLL_LWBCK_Explorer[8].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [0 | 4] // [RFTPIndex | LFTPIndex] = [5 | 0] // <
+
+DLL_LWBCK_Explorer[9] = >
+[List] @ DLL_LWBCK_Explorer[9].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [8 | 3] // [List] @ DLL_LWBCK_Explorer[9].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [3 | 7] // [RFTPIndex | LFTPIndex] = [8 | 3] // <
+
+DLL_LWBCK_Explorer END
+ConstructCheckOverlapDictForLevel(1) ... BEFORE CONSTRUCTION ... ... <<_D_END
+
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [7 | 2], [RFTPIndex | LFTPIndex] = [2 | 6]) --> TRUE @ Index=2
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [7 | 2], [RFTPIndex | LFTPIndex] = [7 | 2]) --> TRUE @ Index=7
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [2 | 6], [RFTPIndex | LFTPIndex] = [2 | 6]) --> TRUE @ Index=2
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [6 | 1], [RFTPIndex | LFTPIndex] = [5 | 0]) --> TRUE @ Index=6
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [6 | 1], [RFTPIndex | LFTPIndex] = [1 | 5]) --> TRUE @ Index=1
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [1 | 5], [RFTPIndex | LFTPIndex] = [5 | 0]) --> TRUE @ Index=5
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [1 | 5], [RFTPIndex | LFTPIndex] = [1 | 5]) --> TRUE @ Index=1
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [0 | 4], [RFTPIndex | LFTPIndex] = [3 | 7]) --> TRUE @ Index=3
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [4 | 8], [RFTPIndex | LFTPIndex] = [7 | 2]) --> TRUE @ Index=7
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [4 | 8], [RFTPIndex | LFTPIndex] = [3 | 7]) --> TRUE @ Index=4
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [3 | 7], [RFTPIndex | LFTPIndex] = [4 | 8]) --> TRUE @ Index=4
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [3 | 7], [RFTPIndex | LFTPIndex] = [0 | 4]) --> TRUE @ Index=3
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [7 | 2], [RFTPIndex | LFTPIndex] = [4 | 8]) --> TRUE @ Index=7
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [7 | 2], [RFTPIndex | LFTPIndex] = [0 | 4]) --> TRUE @ Index=0
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [2 | 6], [RFTPIndex | LFTPIndex] = [4 | 8]) --> TRUE @ Index=4
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [6 | 1], [RFTPIndex | LFTPIndex] = [8 | 3]) --> TRUE @ Index=8
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [6 | 1], [RFTPIndex | LFTPIndex] = [4 | 8]) --> TRUE @ Index=6
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [5 | 0], [RFTPIndex | LFTPIndex] = [1 | 5]) --> TRUE @ Index=5
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [5 | 0], [RFTPIndex | LFTPIndex] = [6 | 1]) --> TRUE @ Index=6
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [0 | 4], [RFTPIndex | LFTPIndex] = [1 | 5]) --> TRUE @ Index=1
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [4 | 8], [RFTPIndex | LFTPIndex] = [6 | 1]) --> TRUE @ Index=6
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [4 | 8], [RFTPIndex | LFTPIndex] = [2 | 6]) --> TRUE @ Index=4
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [8 | 3], [RFTPIndex | LFTPIndex] = [6 | 1]) --> TRUE @ Index=8
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [8 | 3], [RFTPIndex | LFTPIndex] = [2 | 6]) --> TRUE @ Index=2
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [1 | 5], [RFTPIndex | LFTPIndex] = [0 | 4]) --> TRUE @ Index=1
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [1 | 5], [RFTPIndex | LFTPIndex] = [5 | 0]) --> TRUE @ Index=5
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [5 | 0], [RFTPIndex | LFTPIndex] = [0 | 4]) --> TRUE @ Index=0
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [5 | 0], [RFTPIndex | LFTPIndex] = [5 | 0]) --> TRUE @ Index=5
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [8 | 3], [RFTPIndex | LFTPIndex] = [3 | 7]) --> TRUE @ Index=3
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [8 | 3], [RFTPIndex | LFTPIndex] = [8 | 3]) --> TRUE @ Index=8
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [3 | 7], [RFTPIndex | LFTPIndex] = [3 | 7]) --> TRUE @ Index=3
+ConstructCheckOverlapDictForLevel(1) ... AFTER CONSTRUCTION ... ... Printing Dictionaries ... D_BEGIN_>>
+ANewHope.PrintDictsTMP: Dict_FWD_BCK_Overlap (Count=9) BEGIN
+Dict_FWD_BCK_Overlap[1] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {1 | [RFTPIndex | LFTPIndex] = [7 | 2] | [RFTPIndex | LFTPIndex] = [2 | 6]}<
+Dict_FWD_BCK_Overlap[2] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {1 | [RFTPIndex | LFTPIndex] = [6 | 1] | [RFTPIndex | LFTPIndex] = [5 | 0]}<
+Dict_FWD_BCK_Overlap[3] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {1 | [RFTPIndex | LFTPIndex] = [0 | 4] | [RFTPIndex | LFTPIndex] = [3 | 7]}<
+Dict_FWD_BCK_Overlap[4] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {1 | [RFTPIndex | LFTPIndex] = [3 | 7] | [RFTPIndex | LFTPIndex] = [4 | 8]}<
+Dict_FWD_BCK_Overlap[5] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {1 | [RFTPIndex | LFTPIndex] = [2 | 6] | [RFTPIndex | LFTPIndex] = [4 | 8]}<
+Dict_FWD_BCK_Overlap[6] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {1 | [RFTPIndex | LFTPIndex] = [5 | 0] | [RFTPIndex | LFTPIndex] = [1 | 5]}<
+Dict_FWD_BCK_Overlap[7] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {1 | [RFTPIndex | LFTPIndex] = [4 | 8] | [RFTPIndex | LFTPIndex] = [6 | 1]}<
+Dict_FWD_BCK_Overlap[8] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {1 | [RFTPIndex | LFTPIndex] = [1 | 5] | [RFTPIndex | LFTPIndex] = [0 | 4]}<
+Dict_FWD_BCK_Overlap[9] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {1 | [RFTPIndex | LFTPIndex] = [8 | 3] | [RFTPIndex | LFTPIndex] = [3 | 7]}<
+Dict_FWD_BCK_Overlap END
+
+ANewHope.PrintDictsTMP: DLL_FWFWD_Explorer (Count=9) BEGIN
+DLL_FWFWD_Explorer[1] = >
+[List] @ DLL_FWFWD_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 6] // [List] @ DLL_FWFWD_Explorer[1].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [7 | 2] // [RFTPIndex | LFTPIndex] = [2 | 6] // <
+DLL_FWFWD_Explorer[2] = >
+[List] @ DLL_FWFWD_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 5] // [List] @ DLL_FWFWD_Explorer[2].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [6 | 1] // [RFTPIndex | LFTPIndex] = [1 | 5] // <
+DLL_FWFWD_Explorer[3] = >
+[List] @ DLL_FWFWD_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [4 | 8] // [List] @ DLL_FWFWD_Explorer[3].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [0 | 4] // [RFTPIndex | LFTPIndex] = [4 | 8] // <
+DLL_FWFWD_Explorer[4] = >
+[List] @ DLL_FWFWD_Explorer[4].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [7 | 2] // [List] @ DLL_FWFWD_Explorer[4].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [3 | 7] // [RFTPIndex | LFTPIndex] = [7 | 2] // <
+DLL_FWFWD_Explorer[5] = >
+[List] @ DLL_FWFWD_Explorer[5].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [6 | 1] // [List] @ DLL_FWFWD_Explorer[5].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [2 | 6] // [RFTPIndex | LFTPIndex] = [6 | 1] // <
+DLL_FWFWD_Explorer[6] = >
+[List] @ DLL_FWFWD_Explorer[6].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 4] // [List] @ DLL_FWFWD_Explorer[6].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [5 | 0] // [RFTPIndex | LFTPIndex] = [0 | 4] // <
+DLL_FWFWD_Explorer[7] = >
+[List] @ DLL_FWFWD_Explorer[7].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [8 | 3] // [List] @ DLL_FWFWD_Explorer[7].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [4 | 8] // [RFTPIndex | LFTPIndex] = [8 | 3] // <
+DLL_FWFWD_Explorer[8] = >
+[List] @ DLL_FWFWD_Explorer[8].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [5 | 0] // [List] @ DLL_FWFWD_Explorer[8].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [1 | 5] // [RFTPIndex | LFTPIndex] = [5 | 0] // <
+DLL_FWFWD_Explorer[9] = >
+[List] @ DLL_FWFWD_Explorer[9].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [3 | 7] // [List] @ DLL_FWFWD_Explorer[9].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [8 | 3] // [RFTPIndex | LFTPIndex] = [3 | 7] // <
+DLL_FWFWD_Explorer END
+
+ANewHope.PrintDictsTMP: DLL_LWBCK_Explorer (Count=9) BEGIN
+DLL_LWBCK_Explorer[1] = >
+[List] @ DLL_LWBCK_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [7 | 2] // [List] @ DLL_LWBCK_Explorer[1].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [2 | 6] // [RFTPIndex | LFTPIndex] = [7 | 2] // <
+
+DLL_LWBCK_Explorer[2] = >
+[List] @ DLL_LWBCK_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 5] // [List] @ DLL_LWBCK_Explorer[2].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [5 | 0] // [RFTPIndex | LFTPIndex] = [1 | 5] // <
+
+DLL_LWBCK_Explorer[3] = >
+[List] @ DLL_LWBCK_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [3 | 7] // [List] @ DLL_LWBCK_Explorer[3].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [7 | 2] // [RFTPIndex | LFTPIndex] = [3 | 7] // <
+
+DLL_LWBCK_Explorer[4] = >
+[List] @ DLL_LWBCK_Explorer[4].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 4] // [List] @ DLL_LWBCK_Explorer[4].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [4 | 8] // [RFTPIndex | LFTPIndex] = [0 | 4] // <
+
+DLL_LWBCK_Explorer[5] = >
+[List] @ DLL_LWBCK_Explorer[5].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [4 | 8] // [List] @ DLL_LWBCK_Explorer[5].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [8 | 3] // [RFTPIndex | LFTPIndex] = [4 | 8] // <
+
+DLL_LWBCK_Explorer[6] = >
+[List] @ DLL_LWBCK_Explorer[6].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [6 | 1] // [List] @ DLL_LWBCK_Explorer[6].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [1 | 5] // [RFTPIndex | LFTPIndex] = [6 | 1] // <
+
+DLL_LWBCK_Explorer[7] = >
+[List] @ DLL_LWBCK_Explorer[7].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 6] // [List] @ DLL_LWBCK_Explorer[7].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [6 | 1] // [RFTPIndex | LFTPIndex] = [2 | 6] // <
+
+DLL_LWBCK_Explorer[8] = >
+[List] @ DLL_LWBCK_Explorer[8].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [5 | 0] // [List] @ DLL_LWBCK_Explorer[8].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [0 | 4] // [RFTPIndex | LFTPIndex] = [5 | 0] // <
+
+DLL_LWBCK_Explorer[9] = >
+[List] @ DLL_LWBCK_Explorer[9].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [8 | 3] // [List] @ DLL_LWBCK_Explorer[9].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [3 | 7] // [RFTPIndex | LFTPIndex] = [8 | 3] // <
+
+DLL_LWBCK_Explorer END
+ConstructCheckOverlapDictForLevel(1) ... AFTER CONSTRUCTION ... ... <<_D_END
+
+AutoTest_ANewHope.AutoRandSingleTest: FINAL-RESULT [COUNT] = >4<
+
+
+
+
+AutoTest_ANewHope.AutoRandMultiTests: TEST #1 --> BEGINS -->
+AutoTest_ANewHope.AutoRandSingleTest: {NumDaysPerWeek | D | b_FWLW_EqualFlag | b_FWLW_ReverseEqualFlag} = {5 | 2 | True | False}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {0 | 1 | 1}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {1 | 5 | 5}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {2 | 3 | 3}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {3 | 2 | 2}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {4 | 4 | 4}
+
+
+ANewHope.count: Returning 1 ... (!b_FWLW_NotEqual)
+AutoTest_ANewHope.AutoRandSingleTest: FINAL-RESULT [COUNT] = >1<
+
+
+AutoTest_ANewHope.AutoRandMultiTests <-- END OF TEST #1
+
+
+AutoTest_ANewHope.AutoRandMultiTests: TEST #2 --> BEGINS -->
+AutoTest_ANewHope.AutoRandSingleTest: {NumDaysPerWeek | D | b_FWLW_EqualFlag | b_FWLW_ReverseEqualFlag} = {3 | 1 | False | False}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {0 | 3 | 1}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {1 | 1 | 2}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {2 | 2 | 3}
+
+
+ANewHope.count_DLL ...
+ConstructCheckOverlapDictForLevel(0) ... BEFORE CONSTRUCTION ... ... Printing Dictionaries ... D_BEGIN_>>
+ANewHope.PrintDictsTMP: Dict_FWD_BCK_Overlap (Count=0) BEGIN
+Dict_FWD_BCK_Overlap END
+
+ANewHope.PrintDictsTMP: DLL_FWFWD_Explorer (Count=3) BEGIN
+DLL_FWFWD_Explorer[1] = >
+[List] @ DLL_FWFWD_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 1] // <
+DLL_FWFWD_Explorer[2] = >
+[List] @ DLL_FWFWD_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 2] // <
+DLL_FWFWD_Explorer[3] = >
+[List] @ DLL_FWFWD_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 0] // <
+DLL_FWFWD_Explorer END
+
+ANewHope.PrintDictsTMP: DLL_LWBCK_Explorer (Count=3) BEGIN
+DLL_LWBCK_Explorer[1] = >
+[List] @ DLL_LWBCK_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 2] // <
+
+DLL_LWBCK_Explorer[2] = >
+[List] @ DLL_LWBCK_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 0] // <
+
+DLL_LWBCK_Explorer[3] = >
+[List] @ DLL_LWBCK_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 1] // <
+
+DLL_LWBCK_Explorer END
+ConstructCheckOverlapDictForLevel(0) ... BEFORE CONSTRUCTION ... ... <<_D_END
+
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [2 | 1], [RFTPIndex | LFTPIndex] = [0 | 2]) --> TRUE @ Index=2
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [0 | 2], [RFTPIndex | LFTPIndex] = [1 | 0]) --> TRUE @ Index=1
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [1 | 0], [RFTPIndex | LFTPIndex] = [2 | 1]) --> TRUE @ Index=2
+ConstructCheckOverlapDictForLevel(0) ... AFTER CONSTRUCTION ... ... Printing Dictionaries ... D_BEGIN_>>
+ANewHope.PrintDictsTMP: Dict_FWD_BCK_Overlap (Count=3) BEGIN
+Dict_FWD_BCK_Overlap[1] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [2 | 1] | [RFTPIndex | LFTPIndex] = [0 | 2]}<
+Dict_FWD_BCK_Overlap[2] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [0 | 2] | [RFTPIndex | LFTPIndex] = [1 | 0]}<
+Dict_FWD_BCK_Overlap[3] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [1 | 0] | [RFTPIndex | LFTPIndex] = [2 | 1]}<
+Dict_FWD_BCK_Overlap END
+
+ANewHope.PrintDictsTMP: DLL_FWFWD_Explorer (Count=3) BEGIN
+DLL_FWFWD_Explorer[1] = >
+[List] @ DLL_FWFWD_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 1] // <
+DLL_FWFWD_Explorer[2] = >
+[List] @ DLL_FWFWD_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 2] // <
+DLL_FWFWD_Explorer[3] = >
+[List] @ DLL_FWFWD_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 0] // <
+DLL_FWFWD_Explorer END
+
+ANewHope.PrintDictsTMP: DLL_LWBCK_Explorer (Count=3) BEGIN
+DLL_LWBCK_Explorer[1] = >
+[List] @ DLL_LWBCK_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 2] // <
+
+DLL_LWBCK_Explorer[2] = >
+[List] @ DLL_LWBCK_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 0] // <
+
+DLL_LWBCK_Explorer[3] = >
+[List] @ DLL_LWBCK_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 1] // <
+
+DLL_LWBCK_Explorer END
+ConstructCheckOverlapDictForLevel(0) ... AFTER CONSTRUCTION ... ... <<_D_END
+
+AutoTest_ANewHope.AutoRandSingleTest: FINAL-RESULT [COUNT] = >3<
+
+
+AutoTest_ANewHope.AutoRandMultiTests <-- END OF TEST #2
+
+
+AutoTest_ANewHope.AutoRandMultiTests: TEST #3 --> BEGINS -->
+AutoTest_ANewHope.AutoRandSingleTest: {NumDaysPerWeek | D | b_FWLW_EqualFlag | b_FWLW_ReverseEqualFlag} = {6 | 1 | True | False}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {0 | 5 | 5}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {1 | 4 | 4}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {2 | 3 | 3}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {3 | 6 | 6}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {4 | 2 | 2}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {5 | 1 | 1}
+
+
+ANewHope.count: Returning 1 ... (!b_FWLW_NotEqual)
+AutoTest_ANewHope.AutoRandSingleTest: FINAL-RESULT [COUNT] = >1<
+
+
+AutoTest_ANewHope.AutoRandMultiTests <-- END OF TEST #3
+
+
+AutoTest_ANewHope.AutoRandMultiTests: TEST #4 --> BEGINS -->
+AutoTest_ANewHope.AutoRandSingleTest: {NumDaysPerWeek | D | b_FWLW_EqualFlag | b_FWLW_ReverseEqualFlag} = {3 | 1 | True | False}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {0 | 1 | 1}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {1 | 2 | 2}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {2 | 3 | 3}
+
+
+ANewHope.count: Returning 1 ... (!b_FWLW_NotEqual)
+AutoTest_ANewHope.AutoRandSingleTest: FINAL-RESULT [COUNT] = >1<
+
+
+AutoTest_ANewHope.AutoRandMultiTests <-- END OF TEST #4
+
+
+AutoTest_ANewHope.AutoRandMultiTests: TEST #5 --> BEGINS -->
+AutoTest_ANewHope.AutoRandSingleTest: {NumDaysPerWeek | D | b_FWLW_EqualFlag | b_FWLW_ReverseEqualFlag} = {3 | 1 | False | False}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {0 | 1 | 1}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {1 | 3 | 2}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {2 | 2 | 3}
+
+
+ANewHope.count_DLL ...
+ConstructCheckOverlapDictForLevel(0) ... BEFORE CONSTRUCTION ... ... Printing Dictionaries ... D_BEGIN_>>
+ANewHope.PrintDictsTMP: Dict_FWD_BCK_Overlap (Count=0) BEGIN
+Dict_FWD_BCK_Overlap END
+
+ANewHope.PrintDictsTMP: DLL_FWFWD_Explorer (Count=3) BEGIN
+DLL_FWFWD_Explorer[1] = >
+[List] @ DLL_FWFWD_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 0] // <
+DLL_FWFWD_Explorer[2] = >
+[List] @ DLL_FWFWD_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 2] // <
+DLL_FWFWD_Explorer[3] = >
+[List] @ DLL_FWFWD_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 1] // <
+DLL_FWFWD_Explorer END
+
+ANewHope.PrintDictsTMP: DLL_LWBCK_Explorer (Count=3) BEGIN
+DLL_LWBCK_Explorer[1] = >
+[List] @ DLL_LWBCK_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 2] // <
+
+DLL_LWBCK_Explorer[2] = >
+[List] @ DLL_LWBCK_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 0] // <
+
+DLL_LWBCK_Explorer[3] = >
+[List] @ DLL_LWBCK_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 1] // <
+
+DLL_LWBCK_Explorer END
+ConstructCheckOverlapDictForLevel(0) ... BEFORE CONSTRUCTION ... ... <<_D_END
+
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [1 | 0], [RFTPIndex | LFTPIndex] = [0 | 2]) --> TRUE @ Index=1
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [0 | 2], [RFTPIndex | LFTPIndex] = [1 | 0]) --> TRUE @ Index=1
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [2 | 1], [RFTPIndex | LFTPIndex] = [2 | 1]) --> TRUE @ Index=2
+ConstructCheckOverlapDictForLevel(0) ... AFTER CONSTRUCTION ... ... Printing Dictionaries ... D_BEGIN_>>
+ANewHope.PrintDictsTMP: Dict_FWD_BCK_Overlap (Count=3) BEGIN
+Dict_FWD_BCK_Overlap[1] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [1 | 0] | [RFTPIndex | LFTPIndex] = [0 | 2]}<
+Dict_FWD_BCK_Overlap[2] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [0 | 2] | [RFTPIndex | LFTPIndex] = [1 | 0]}<
+Dict_FWD_BCK_Overlap[3] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [2 | 1] | [RFTPIndex | LFTPIndex] = [2 | 1]}<
+Dict_FWD_BCK_Overlap END
+
+ANewHope.PrintDictsTMP: DLL_FWFWD_Explorer (Count=3) BEGIN
+DLL_FWFWD_Explorer[1] = >
+[List] @ DLL_FWFWD_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 0] // <
+DLL_FWFWD_Explorer[2] = >
+[List] @ DLL_FWFWD_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 2] // <
+DLL_FWFWD_Explorer[3] = >
+[List] @ DLL_FWFWD_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 1] // <
+DLL_FWFWD_Explorer END
+
+ANewHope.PrintDictsTMP: DLL_LWBCK_Explorer (Count=3) BEGIN
+DLL_LWBCK_Explorer[1] = >
+[List] @ DLL_LWBCK_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 2] // <
+
+DLL_LWBCK_Explorer[2] = >
+[List] @ DLL_LWBCK_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 0] // <
+
+DLL_LWBCK_Explorer[3] = >
+[List] @ DLL_LWBCK_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 1] // <
+
+DLL_LWBCK_Explorer END
+ConstructCheckOverlapDictForLevel(0) ... AFTER CONSTRUCTION ... ... <<_D_END
+
+AutoTest_ANewHope.AutoRandSingleTest: FINAL-RESULT [COUNT] = >3<
+
+
+AutoTest_ANewHope.AutoRandMultiTests <-- END OF TEST #5
+
+
+AutoTest_ANewHope.AutoRandMultiTests: TEST #6 --> BEGINS -->
+AutoTest_ANewHope.AutoRandSingleTest: {NumDaysPerWeek | D | b_FWLW_EqualFlag | b_FWLW_ReverseEqualFlag} = {4 | 1 | True | False}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {0 | 3 | 3}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {1 | 1 | 1}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {2 | 4 | 4}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {3 | 2 | 2}
+
+
+ANewHope.count: Returning 1 ... (!b_FWLW_NotEqual)
+AutoTest_ANewHope.AutoRandSingleTest: FINAL-RESULT [COUNT] = >1<
+
+
+AutoTest_ANewHope.AutoRandMultiTests <-- END OF TEST #6
+
+
+AutoTest_ANewHope.AutoRandMultiTests: TEST #7 --> BEGINS -->
+AutoTest_ANewHope.AutoRandSingleTest: {NumDaysPerWeek | D | b_FWLW_EqualFlag | b_FWLW_ReverseEqualFlag} = {9 | 4 | False | False}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {0 | 4 | 1}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {1 | 6 | 5}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {2 | 8 | 4}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {3 | 5 | 9}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {4 | 3 | 7}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {5 | 1 | 8}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {6 | 2 | 3}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {7 | 7 | 6}
+AutoTest_ANewHope.AutoRandSingleTest: {i | firstWeek[i] | lastWeek[i]} = {8 | 9 | 2}
+
+
+ANewHope.count_DLL ...
+ConstructCheckOverlapDictForLevel(0) ... BEFORE CONSTRUCTION ... ... Printing Dictionaries ... D_BEGIN_>>
+ANewHope.PrintDictsTMP: Dict_FWD_BCK_Overlap (Count=0) BEGIN
+Dict_FWD_BCK_Overlap END
+
+ANewHope.PrintDictsTMP: DLL_FWFWD_Explorer (Count=9) BEGIN
+DLL_FWFWD_Explorer[1] = >
+[List] @ DLL_FWFWD_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 5] // <
+DLL_FWFWD_Explorer[2] = >
+[List] @ DLL_FWFWD_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 6] // <
+DLL_FWFWD_Explorer[3] = >
+[List] @ DLL_FWFWD_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [8 | 4] // <
+DLL_FWFWD_Explorer[4] = >
+[List] @ DLL_FWFWD_Explorer[4].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [4 | 0] // <
+DLL_FWFWD_Explorer[5] = >
+[List] @ DLL_FWFWD_Explorer[5].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [7 | 3] // <
+DLL_FWFWD_Explorer[6] = >
+[List] @ DLL_FWFWD_Explorer[6].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [5 | 1] // <
+DLL_FWFWD_Explorer[7] = >
+[List] @ DLL_FWFWD_Explorer[7].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 7] // <
+DLL_FWFWD_Explorer[8] = >
+[List] @ DLL_FWFWD_Explorer[8].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [6 | 2] // <
+DLL_FWFWD_Explorer[9] = >
+[List] @ DLL_FWFWD_Explorer[9].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [3 | 8] // <
+DLL_FWFWD_Explorer END
+
+ANewHope.PrintDictsTMP: DLL_LWBCK_Explorer (Count=9) BEGIN
+DLL_LWBCK_Explorer[1] = >
+[List] @ DLL_LWBCK_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 5] // <
+
+DLL_LWBCK_Explorer[2] = >
+[List] @ DLL_LWBCK_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [8 | 4] // <
+
+DLL_LWBCK_Explorer[3] = >
+[List] @ DLL_LWBCK_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [6 | 2] // <
+
+DLL_LWBCK_Explorer[4] = >
+[List] @ DLL_LWBCK_Explorer[4].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 7] // <
+
+DLL_LWBCK_Explorer[5] = >
+[List] @ DLL_LWBCK_Explorer[5].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 6] // <
+
+DLL_LWBCK_Explorer[6] = >
+[List] @ DLL_LWBCK_Explorer[6].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [7 | 3] // <
+
+DLL_LWBCK_Explorer[7] = >
+[List] @ DLL_LWBCK_Explorer[7].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [4 | 0] // <
+
+DLL_LWBCK_Explorer[8] = >
+[List] @ DLL_LWBCK_Explorer[8].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [5 | 1] // <
+
+DLL_LWBCK_Explorer[9] = >
+[List] @ DLL_LWBCK_Explorer[9].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [3 | 8] // <
+
+DLL_LWBCK_Explorer END
+ConstructCheckOverlapDictForLevel(0) ... BEFORE CONSTRUCTION ... ... <<_D_END
+
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [0 | 5], [RFTPIndex | LFTPIndex] = [0 | 5]) --> TRUE @ Index=0
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [8 | 4], [RFTPIndex | LFTPIndex] = [6 | 2]) --> TRUE @ Index=8
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [4 | 0], [RFTPIndex | LFTPIndex] = [2 | 7]) --> TRUE @ Index=4
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [7 | 3], [RFTPIndex | LFTPIndex] = [1 | 6]) --> TRUE @ Index=1
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [5 | 1], [RFTPIndex | LFTPIndex] = [7 | 3]) --> TRUE @ Index=7
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [2 | 7], [RFTPIndex | LFTPIndex] = [4 | 0]) --> TRUE @ Index=4
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [6 | 2], [RFTPIndex | LFTPIndex] = [5 | 1]) --> TRUE @ Index=6
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [3 | 8], [RFTPIndex | LFTPIndex] = [3 | 8]) --> TRUE @ Index=3
+ConstructCheckOverlapDictForLevel(0) ... AFTER CONSTRUCTION ... ... Printing Dictionaries ... D_BEGIN_>>
+ANewHope.PrintDictsTMP: Dict_FWD_BCK_Overlap (Count=8) BEGIN
+Dict_FWD_BCK_Overlap[1] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [0 | 5] | [RFTPIndex | LFTPIndex] = [0 | 5]}<
+Dict_FWD_BCK_Overlap[3] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [8 | 4] | [RFTPIndex | LFTPIndex] = [6 | 2]}<
+Dict_FWD_BCK_Overlap[4] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [4 | 0] | [RFTPIndex | LFTPIndex] = [2 | 7]}<
+Dict_FWD_BCK_Overlap[5] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [7 | 3] | [RFTPIndex | LFTPIndex] = [1 | 6]}<
+Dict_FWD_BCK_Overlap[6] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [5 | 1] | [RFTPIndex | LFTPIndex] = [7 | 3]}<
+Dict_FWD_BCK_Overlap[7] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [2 | 7] | [RFTPIndex | LFTPIndex] = [4 | 0]}<
+Dict_FWD_BCK_Overlap[8] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [6 | 2] | [RFTPIndex | LFTPIndex] = [5 | 1]}<
+Dict_FWD_BCK_Overlap[9] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [3 | 8] | [RFTPIndex | LFTPIndex] = [3 | 8]}<
+Dict_FWD_BCK_Overlap END
+
+ANewHope.PrintDictsTMP: DLL_FWFWD_Explorer (Count=9) BEGIN
+DLL_FWFWD_Explorer[1] = >
+[List] @ DLL_FWFWD_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 5] // <
+DLL_FWFWD_Explorer[2] = >
+[List] @ DLL_FWFWD_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 6] // <
+DLL_FWFWD_Explorer[3] = >
+[List] @ DLL_FWFWD_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [8 | 4] // <
+DLL_FWFWD_Explorer[4] = >
+[List] @ DLL_FWFWD_Explorer[4].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [4 | 0] // <
+DLL_FWFWD_Explorer[5] = >
+[List] @ DLL_FWFWD_Explorer[5].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [7 | 3] // <
+DLL_FWFWD_Explorer[6] = >
+[List] @ DLL_FWFWD_Explorer[6].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [5 | 1] // <
+DLL_FWFWD_Explorer[7] = >
+[List] @ DLL_FWFWD_Explorer[7].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 7] // <
+DLL_FWFWD_Explorer[8] = >
+[List] @ DLL_FWFWD_Explorer[8].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [6 | 2] // <
+DLL_FWFWD_Explorer[9] = >
+[List] @ DLL_FWFWD_Explorer[9].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [3 | 8] // <
+DLL_FWFWD_Explorer END
+
+ANewHope.PrintDictsTMP: DLL_LWBCK_Explorer (Count=9) BEGIN
+DLL_LWBCK_Explorer[1] = >
+[List] @ DLL_LWBCK_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 5] // <
+
+DLL_LWBCK_Explorer[2] = >
+[List] @ DLL_LWBCK_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [8 | 4] // <
+
+DLL_LWBCK_Explorer[3] = >
+[List] @ DLL_LWBCK_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [6 | 2] // <
+
+DLL_LWBCK_Explorer[4] = >
+[List] @ DLL_LWBCK_Explorer[4].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 7] // <
+
+DLL_LWBCK_Explorer[5] = >
+[List] @ DLL_LWBCK_Explorer[5].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 6] // <
+
+DLL_LWBCK_Explorer[6] = >
+[List] @ DLL_LWBCK_Explorer[6].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [7 | 3] // <
+
+DLL_LWBCK_Explorer[7] = >
+[List] @ DLL_LWBCK_Explorer[7].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [4 | 0] // <
+
+DLL_LWBCK_Explorer[8] = >
+[List] @ DLL_LWBCK_Explorer[8].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [5 | 1] // <
+
+DLL_LWBCK_Explorer[9] = >
+[List] @ DLL_LWBCK_Explorer[9].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [3 | 8] // <
+
+DLL_LWBCK_Explorer END
+ConstructCheckOverlapDictForLevel(0) ... AFTER CONSTRUCTION ... ... <<_D_END
+
+ConstructCheckOverlapDictForLevel(1) ... BEFORE CONSTRUCTION ... ... Printing Dictionaries ... D_BEGIN_>>
+ANewHope.PrintDictsTMP: Dict_FWD_BCK_Overlap (Count=0) BEGIN
+Dict_FWD_BCK_Overlap END
+
+ANewHope.PrintDictsTMP: DLL_FWFWD_Explorer (Count=9) BEGIN
+DLL_FWFWD_Explorer[1] = >
+[List] @ DLL_FWFWD_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 5] // [List] @ DLL_FWFWD_Explorer[1].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [4 | 0] // [RFTPIndex | LFTPIndex] = [0 | 5] // <
+DLL_FWFWD_Explorer[2] = >
+[List] @ DLL_FWFWD_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 6] // [List] @ DLL_FWFWD_Explorer[2].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [5 | 1] // [RFTPIndex | LFTPIndex] = [1 | 6] // <
+DLL_FWFWD_Explorer[3] = >
+[List] @ DLL_FWFWD_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [8 | 4] // [List] @ DLL_FWFWD_Explorer[3].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [3 | 8] // [RFTPIndex | LFTPIndex] = [8 | 4] // <
+DLL_FWFWD_Explorer[4] = >
+[List] @ DLL_FWFWD_Explorer[4].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [4 | 0] // [List] @ DLL_FWFWD_Explorer[4].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [8 | 4] // [RFTPIndex | LFTPIndex] = [4 | 0] // <
+DLL_FWFWD_Explorer[5] = >
+[List] @ DLL_FWFWD_Explorer[5].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [7 | 3] // [List] @ DLL_FWFWD_Explorer[5].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [2 | 7] // [RFTPIndex | LFTPIndex] = [7 | 3] // <
+DLL_FWFWD_Explorer[6] = >
+[List] @ DLL_FWFWD_Explorer[6].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [5 | 1] // [List] @ DLL_FWFWD_Explorer[6].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [0 | 5] // [RFTPIndex | LFTPIndex] = [5 | 1] // <
+DLL_FWFWD_Explorer[7] = >
+[List] @ DLL_FWFWD_Explorer[7].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 7] // [List] @ DLL_FWFWD_Explorer[7].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [6 | 2] // [RFTPIndex | LFTPIndex] = [2 | 7] // <
+DLL_FWFWD_Explorer[8] = >
+[List] @ DLL_FWFWD_Explorer[8].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [6 | 2] // [List] @ DLL_FWFWD_Explorer[8].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [1 | 6] // [RFTPIndex | LFTPIndex] = [6 | 2] // <
+DLL_FWFWD_Explorer[9] = >
+[List] @ DLL_FWFWD_Explorer[9].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [3 | 8] // [List] @ DLL_FWFWD_Explorer[9].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [7 | 3] // [RFTPIndex | LFTPIndex] = [3 | 8] // <
+DLL_FWFWD_Explorer END
+
+ANewHope.PrintDictsTMP: DLL_LWBCK_Explorer (Count=9) BEGIN
+DLL_LWBCK_Explorer[1] = >
+[List] @ DLL_LWBCK_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 5] // [List] @ DLL_LWBCK_Explorer[1].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [5 | 1] // [RFTPIndex | LFTPIndex] = [0 | 5] // <
+
+DLL_LWBCK_Explorer[2] = >
+[List] @ DLL_LWBCK_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [8 | 4] // [List] @ DLL_LWBCK_Explorer[2].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [4 | 0] // [RFTPIndex | LFTPIndex] = [8 | 4] // <
+
+DLL_LWBCK_Explorer[3] = >
+[List] @ DLL_LWBCK_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [6 | 2] // [List] @ DLL_LWBCK_Explorer[3].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [2 | 7] // [RFTPIndex | LFTPIndex] = [6 | 2] // <
+
+DLL_LWBCK_Explorer[4] = >
+[List] @ DLL_LWBCK_Explorer[4].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 7] // [List] @ DLL_LWBCK_Explorer[4].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [7 | 3] // [RFTPIndex | LFTPIndex] = [2 | 7] // <
+
+DLL_LWBCK_Explorer[5] = >
+[List] @ DLL_LWBCK_Explorer[5].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 6] // [List] @ DLL_LWBCK_Explorer[5].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [6 | 2] // [RFTPIndex | LFTPIndex] = [1 | 6] // <
+
+DLL_LWBCK_Explorer[6] = >
+[List] @ DLL_LWBCK_Explorer[6].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [7 | 3] // [List] @ DLL_LWBCK_Explorer[6].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [3 | 8] // [RFTPIndex | LFTPIndex] = [7 | 3] // <
+
+DLL_LWBCK_Explorer[7] = >
+[List] @ DLL_LWBCK_Explorer[7].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [4 | 0] // [List] @ DLL_LWBCK_Explorer[7].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [0 | 5] // [RFTPIndex | LFTPIndex] = [4 | 0] // <
+
+DLL_LWBCK_Explorer[8] = >
+[List] @ DLL_LWBCK_Explorer[8].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [5 | 1] // [List] @ DLL_LWBCK_Explorer[8].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [1 | 6] // [RFTPIndex | LFTPIndex] = [5 | 1] // <
+
+DLL_LWBCK_Explorer[9] = >
+[List] @ DLL_LWBCK_Explorer[9].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [3 | 8] // [List] @ DLL_LWBCK_Explorer[9].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [8 | 4] // [RFTPIndex | LFTPIndex] = [3 | 8] // <
+
+DLL_LWBCK_Explorer END
+ConstructCheckOverlapDictForLevel(1) ... BEFORE CONSTRUCTION ... ... <<_D_END
+
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [4 | 0], [RFTPIndex | LFTPIndex] = [5 | 1]) --> TRUE @ Index=5
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [4 | 0], [RFTPIndex | LFTPIndex] = [0 | 5]) --> TRUE @ Index=4
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [0 | 5], [RFTPIndex | LFTPIndex] = [5 | 1]) --> TRUE @ Index=5
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [0 | 5], [RFTPIndex | LFTPIndex] = [0 | 5]) --> TRUE @ Index=0
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [5 | 1], [RFTPIndex | LFTPIndex] = [4 | 0]) --> TRUE @ Index=5
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [5 | 1], [RFTPIndex | LFTPIndex] = [8 | 4]) --> TRUE @ Index=8
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [1 | 6], [RFTPIndex | LFTPIndex] = [4 | 0]) --> TRUE @ Index=4
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [3 | 8], [RFTPIndex | LFTPIndex] = [2 | 7]) --> TRUE @ Index=3
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [3 | 8], [RFTPIndex | LFTPIndex] = [6 | 2]) --> TRUE @ Index=6
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [8 | 4], [RFTPIndex | LFTPIndex] = [2 | 7]) --> TRUE @ Index=2
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [8 | 4], [RFTPIndex | LFTPIndex] = [6 | 2]) --> TRUE @ Index=8
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [8 | 4], [RFTPIndex | LFTPIndex] = [7 | 3]) --> TRUE @ Index=8
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [8 | 4], [RFTPIndex | LFTPIndex] = [2 | 7]) --> TRUE @ Index=2
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [4 | 0], [RFTPIndex | LFTPIndex] = [7 | 3]) --> TRUE @ Index=7
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [4 | 0], [RFTPIndex | LFTPIndex] = [2 | 7]) --> TRUE @ Index=4
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [2 | 7], [RFTPIndex | LFTPIndex] = [6 | 2]) --> TRUE @ Index=6
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [2 | 7], [RFTPIndex | LFTPIndex] = [1 | 6]) --> TRUE @ Index=2
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [7 | 3], [RFTPIndex | LFTPIndex] = [6 | 2]) --> TRUE @ Index=7
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [7 | 3], [RFTPIndex | LFTPIndex] = [1 | 6]) --> TRUE @ Index=1
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [0 | 5], [RFTPIndex | LFTPIndex] = [3 | 8]) --> TRUE @ Index=3
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [5 | 1], [RFTPIndex | LFTPIndex] = [3 | 8]) --> TRUE @ Index=5
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [5 | 1], [RFTPIndex | LFTPIndex] = [7 | 3]) --> TRUE @ Index=7
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [6 | 2], [RFTPIndex | LFTPIndex] = [0 | 5]) --> TRUE @ Index=0
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [6 | 2], [RFTPIndex | LFTPIndex] = [4 | 0]) --> TRUE @ Index=6
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [2 | 7], [RFTPIndex | LFTPIndex] = [0 | 5]) --> TRUE @ Index=2
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [2 | 7], [RFTPIndex | LFTPIndex] = [4 | 0]) --> TRUE @ Index=4
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [1 | 6], [RFTPIndex | LFTPIndex] = [1 | 6]) --> TRUE @ Index=1
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [1 | 6], [RFTPIndex | LFTPIndex] = [5 | 1]) --> TRUE @ Index=5
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [6 | 2], [RFTPIndex | LFTPIndex] = [1 | 6]) --> TRUE @ Index=6
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [6 | 2], [RFTPIndex | LFTPIndex] = [5 | 1]) --> TRUE @ Index=6
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [7 | 3], [RFTPIndex | LFTPIndex] = [8 | 4]) --> TRUE @ Index=8
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [7 | 3], [RFTPIndex | LFTPIndex] = [3 | 8]) --> TRUE @ Index=7
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [3 | 8], [RFTPIndex | LFTPIndex] = [8 | 4]) --> TRUE @ Index=8
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [3 | 8], [RFTPIndex | LFTPIndex] = [3 | 8]) --> TRUE @ Index=3
+ConstructCheckOverlapDictForLevel(1) ... AFTER CONSTRUCTION ... ... Printing Dictionaries ... D_BEGIN_>>
+ANewHope.PrintDictsTMP: Dict_FWD_BCK_Overlap (Count=9) BEGIN
+Dict_FWD_BCK_Overlap[1] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {1 | [RFTPIndex | LFTPIndex] = [4 | 0] | [RFTPIndex | LFTPIndex] = [5 | 1]}<
+Dict_FWD_BCK_Overlap[2] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {1 | [RFTPIndex | LFTPIndex] = [5 | 1] | [RFTPIndex | LFTPIndex] = [4 | 0]}<
+Dict_FWD_BCK_Overlap[3] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {1 | [RFTPIndex | LFTPIndex] = [3 | 8] | [RFTPIndex | LFTPIndex] = [2 | 7]}<
+Dict_FWD_BCK_Overlap[4] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {1 | [RFTPIndex | LFTPIndex] = [8 | 4] | [RFTPIndex | LFTPIndex] = [7 | 3]}<
+Dict_FWD_BCK_Overlap[5] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {1 | [RFTPIndex | LFTPIndex] = [2 | 7] | [RFTPIndex | LFTPIndex] = [6 | 2]}<
+Dict_FWD_BCK_Overlap[6] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {1 | [RFTPIndex | LFTPIndex] = [0 | 5] | [RFTPIndex | LFTPIndex] = [3 | 8]}<
+Dict_FWD_BCK_Overlap[7] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {1 | [RFTPIndex | LFTPIndex] = [6 | 2] | [RFTPIndex | LFTPIndex] = [0 | 5]}<
+Dict_FWD_BCK_Overlap[8] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {1 | [RFTPIndex | LFTPIndex] = [1 | 6] | [RFTPIndex | LFTPIndex] = [1 | 6]}<
+Dict_FWD_BCK_Overlap[9] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {1 | [RFTPIndex | LFTPIndex] = [7 | 3] | [RFTPIndex | LFTPIndex] = [8 | 4]}<
+Dict_FWD_BCK_Overlap END
+
+ANewHope.PrintDictsTMP: DLL_FWFWD_Explorer (Count=9) BEGIN
+DLL_FWFWD_Explorer[1] = >
+[List] @ DLL_FWFWD_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 5] // [List] @ DLL_FWFWD_Explorer[1].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [4 | 0] // [RFTPIndex | LFTPIndex] = [0 | 5] // <
+DLL_FWFWD_Explorer[2] = >
+[List] @ DLL_FWFWD_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 6] // [List] @ DLL_FWFWD_Explorer[2].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [5 | 1] // [RFTPIndex | LFTPIndex] = [1 | 6] // <
+DLL_FWFWD_Explorer[3] = >
+[List] @ DLL_FWFWD_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [8 | 4] // [List] @ DLL_FWFWD_Explorer[3].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [3 | 8] // [RFTPIndex | LFTPIndex] = [8 | 4] // <
+DLL_FWFWD_Explorer[4] = >
+[List] @ DLL_FWFWD_Explorer[4].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [4 | 0] // [List] @ DLL_FWFWD_Explorer[4].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [8 | 4] // [RFTPIndex | LFTPIndex] = [4 | 0] // <
+DLL_FWFWD_Explorer[5] = >
+[List] @ DLL_FWFWD_Explorer[5].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [7 | 3] // [List] @ DLL_FWFWD_Explorer[5].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [2 | 7] // [RFTPIndex | LFTPIndex] = [7 | 3] // <
+DLL_FWFWD_Explorer[6] = >
+[List] @ DLL_FWFWD_Explorer[6].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [5 | 1] // [List] @ DLL_FWFWD_Explorer[6].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [0 | 5] // [RFTPIndex | LFTPIndex] = [5 | 1] // <
+DLL_FWFWD_Explorer[7] = >
+[List] @ DLL_FWFWD_Explorer[7].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 7] // [List] @ DLL_FWFWD_Explorer[7].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [6 | 2] // [RFTPIndex | LFTPIndex] = [2 | 7] // <
+DLL_FWFWD_Explorer[8] = >
+[List] @ DLL_FWFWD_Explorer[8].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [6 | 2] // [List] @ DLL_FWFWD_Explorer[8].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [1 | 6] // [RFTPIndex | LFTPIndex] = [6 | 2] // <
+DLL_FWFWD_Explorer[9] = >
+[List] @ DLL_FWFWD_Explorer[9].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [3 | 8] // [List] @ DLL_FWFWD_Explorer[9].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [7 | 3] // [RFTPIndex | LFTPIndex] = [3 | 8] // <
+DLL_FWFWD_Explorer END
+
+ANewHope.PrintDictsTMP: DLL_LWBCK_Explorer (Count=9) BEGIN
+DLL_LWBCK_Explorer[1] = >
+[List] @ DLL_LWBCK_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 5] // [List] @ DLL_LWBCK_Explorer[1].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [5 | 1] // [RFTPIndex | LFTPIndex] = [0 | 5] // <
+
+DLL_LWBCK_Explorer[2] = >
+[List] @ DLL_LWBCK_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [8 | 4] // [List] @ DLL_LWBCK_Explorer[2].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [4 | 0] // [RFTPIndex | LFTPIndex] = [8 | 4] // <
+
+DLL_LWBCK_Explorer[3] = >
+[List] @ DLL_LWBCK_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [6 | 2] // [List] @ DLL_LWBCK_Explorer[3].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [2 | 7] // [RFTPIndex | LFTPIndex] = [6 | 2] // <
+
+DLL_LWBCK_Explorer[4] = >
+[List] @ DLL_LWBCK_Explorer[4].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 7] // [List] @ DLL_LWBCK_Explorer[4].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [7 | 3] // [RFTPIndex | LFTPIndex] = [2 | 7] // <
+
+DLL_LWBCK_Explorer[5] = >
+[List] @ DLL_LWBCK_Explorer[5].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 6] // [List] @ DLL_LWBCK_Explorer[5].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [6 | 2] // [RFTPIndex | LFTPIndex] = [1 | 6] // <
+
+DLL_LWBCK_Explorer[6] = >
+[List] @ DLL_LWBCK_Explorer[6].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [7 | 3] // [List] @ DLL_LWBCK_Explorer[6].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [3 | 8] // [RFTPIndex | LFTPIndex] = [7 | 3] // <
+
+DLL_LWBCK_Explorer[7] = >
+[List] @ DLL_LWBCK_Explorer[7].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [4 | 0] // [List] @ DLL_LWBCK_Explorer[7].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [0 | 5] // [RFTPIndex | LFTPIndex] = [4 | 0] // <
+
+DLL_LWBCK_Explorer[8] = >
+[List] @ DLL_LWBCK_Explorer[8].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [5 | 1] // [List] @ DLL_LWBCK_Explorer[8].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [1 | 6] // [RFTPIndex | LFTPIndex] = [5 | 1] // <
+
+DLL_LWBCK_Explorer[9] = >
+[List] @ DLL_LWBCK_Explorer[9].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [3 | 8] // [List] @ DLL_LWBCK_Explorer[9].ElementAt(1) ... 
+[RFTPIndex | LFTPIndex] = [8 | 4] // [RFTPIndex | LFTPIndex] = [3 | 8] // <
+
+DLL_LWBCK_Explorer END
+ConstructCheckOverlapDictForLevel(1) ... AFTER CONSTRUCTION ... ... <<_D_END
+
+AutoTest_ANewHope.AutoRandSingleTest: FINAL-RESULT [COUNT] = >4<
+
+
+AutoTest_ANewHope.AutoRandMultiTests <-- END OF TEST #7
+
+
+
+
+[firstWeekAll[0] | lastWeekAll[ 0] | d[0]] = [System.Int32[] | System.Int32[] | 3]
+ANewHope.count: Returning 'NumDaysPerWeek' = 4 ... ((D == NumDaysPerWeek - 1) && !b_FWLW_NotReverseEqual)
+ANewHopeTestObj.count = >4<
+[firstWeekAll[1] | lastWeekAll[ 1] | d[1]] = [System.Int32[] | System.Int32[] | 3]
+ANewHope.count_DLL ...
+ConstructCheckOverlapDictForLevel(0) ... BEFORE CONSTRUCTION ... ... Printing Dictionaries ... D_BEGIN_>>
+ANewHope.PrintDictsTMP: Dict_FWD_BCK_Overlap (Count=0) BEGIN
+Dict_FWD_BCK_Overlap END
+
+ANewHope.PrintDictsTMP: DLL_FWFWD_Explorer (Count=8) BEGIN
+DLL_FWFWD_Explorer[1] = >
+[List] @ DLL_FWFWD_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [6 | 3] // <
+DLL_FWFWD_Explorer[2] = >
+[List] @ DLL_FWFWD_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 7] // <
+DLL_FWFWD_Explorer[3] = >
+[List] @ DLL_FWFWD_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 6] // <
+DLL_FWFWD_Explorer[4] = >
+[List] @ DLL_FWFWD_Explorer[4].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [5 | 2] // <
+DLL_FWFWD_Explorer[5] = >
+[List] @ DLL_FWFWD_Explorer[5].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [4 | 1] // <
+DLL_FWFWD_Explorer[6] = >
+[List] @ DLL_FWFWD_Explorer[6].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 5] // <
+DLL_FWFWD_Explorer[7] = >
+[List] @ DLL_FWFWD_Explorer[7].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [7 | 4] // <
+DLL_FWFWD_Explorer[8] = >
+[List] @ DLL_FWFWD_Explorer[8].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [3 | 0] // <
+DLL_FWFWD_Explorer END
+
+ANewHope.PrintDictsTMP: DLL_LWBCK_Explorer (Count=8) BEGIN
+DLL_LWBCK_Explorer[1] = >
+[List] @ DLL_LWBCK_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [4 | 1] // <
+
+DLL_LWBCK_Explorer[2] = >
+[List] @ DLL_LWBCK_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 5] // <
+
+DLL_LWBCK_Explorer[3] = >
+[List] @ DLL_LWBCK_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [5 | 2] // <
+
+DLL_LWBCK_Explorer[4] = >
+[List] @ DLL_LWBCK_Explorer[4].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 6] // <
+
+DLL_LWBCK_Explorer[5] = >
+[List] @ DLL_LWBCK_Explorer[5].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [6 | 3] // <
+
+DLL_LWBCK_Explorer[6] = >
+[List] @ DLL_LWBCK_Explorer[6].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 7] // <
+
+DLL_LWBCK_Explorer[7] = >
+[List] @ DLL_LWBCK_Explorer[7].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [7 | 4] // <
+
+DLL_LWBCK_Explorer[8] = >
+[List] @ DLL_LWBCK_Explorer[8].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [3 | 0] // <
+
+DLL_LWBCK_Explorer END
+ConstructCheckOverlapDictForLevel(0) ... BEFORE CONSTRUCTION ... ... <<_D_END
+
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [6 | 3], [RFTPIndex | LFTPIndex] = [4 | 1]) --> TRUE @ Index=6
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [2 | 7], [RFTPIndex | LFTPIndex] = [0 | 5]) --> TRUE @ Index=2
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [1 | 6], [RFTPIndex | LFTPIndex] = [5 | 2]) --> TRUE @ Index=5
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [5 | 2], [RFTPIndex | LFTPIndex] = [1 | 6]) --> TRUE @ Index=5
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [4 | 1], [RFTPIndex | LFTPIndex] = [6 | 3]) --> TRUE @ Index=6
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [0 | 5], [RFTPIndex | LFTPIndex] = [2 | 7]) --> TRUE @ Index=2
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [7 | 4], [RFTPIndex | LFTPIndex] = [7 | 4]) --> TRUE @ Index=7
+OverlapSIRPairFound([RFTPIndex | LFTPIndex] = [3 | 0], [RFTPIndex | LFTPIndex] = [3 | 0]) --> TRUE @ Index=3
+ConstructCheckOverlapDictForLevel(0) ... AFTER CONSTRUCTION ... ... Printing Dictionaries ... D_BEGIN_>>
+ANewHope.PrintDictsTMP: Dict_FWD_BCK_Overlap (Count=8) BEGIN
+Dict_FWD_BCK_Overlap[1] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [6 | 3] | [RFTPIndex | LFTPIndex] = [4 | 1]}<
+Dict_FWD_BCK_Overlap[2] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [2 | 7] | [RFTPIndex | LFTPIndex] = [0 | 5]}<
+Dict_FWD_BCK_Overlap[3] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [1 | 6] | [RFTPIndex | LFTPIndex] = [5 | 2]}<
+Dict_FWD_BCK_Overlap[4] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [5 | 2] | [RFTPIndex | LFTPIndex] = [1 | 6]}<
+Dict_FWD_BCK_Overlap[5] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [4 | 1] | [RFTPIndex | LFTPIndex] = [6 | 3]}<
+Dict_FWD_BCK_Overlap[6] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [0 | 5] | [RFTPIndex | LFTPIndex] = [2 | 7]}<
+Dict_FWD_BCK_Overlap[7] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [7 | 4] | [RFTPIndex | LFTPIndex] = [7 | 4]}<
+Dict_FWD_BCK_Overlap[8] = >{OverlapLevel | FWFWD_SIR | LWBCK_SIR } = {0 | [RFTPIndex | LFTPIndex] = [3 | 0] | [RFTPIndex | LFTPIndex] = [3 | 0]}<
+Dict_FWD_BCK_Overlap END
+
+ANewHope.PrintDictsTMP: DLL_FWFWD_Explorer (Count=8) BEGIN
+DLL_FWFWD_Explorer[1] = >
+[List] @ DLL_FWFWD_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [6 | 3] // <
+DLL_FWFWD_Explorer[2] = >
+[List] @ DLL_FWFWD_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 7] // <
+DLL_FWFWD_Explorer[3] = >
+[List] @ DLL_FWFWD_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 6] // <
+DLL_FWFWD_Explorer[4] = >
+[List] @ DLL_FWFWD_Explorer[4].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [5 | 2] // <
+DLL_FWFWD_Explorer[5] = >
+[List] @ DLL_FWFWD_Explorer[5].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [4 | 1] // <
+DLL_FWFWD_Explorer[6] = >
+[List] @ DLL_FWFWD_Explorer[6].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 5] // <
+DLL_FWFWD_Explorer[7] = >
+[List] @ DLL_FWFWD_Explorer[7].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [7 | 4] // <
+DLL_FWFWD_Explorer[8] = >
+[List] @ DLL_FWFWD_Explorer[8].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [3 | 0] // <
+DLL_FWFWD_Explorer END
+
+ANewHope.PrintDictsTMP: DLL_LWBCK_Explorer (Count=8) BEGIN
+DLL_LWBCK_Explorer[1] = >
+[List] @ DLL_LWBCK_Explorer[1].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [4 | 1] // <
+
+DLL_LWBCK_Explorer[2] = >
+[List] @ DLL_LWBCK_Explorer[2].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [0 | 5] // <
+
+DLL_LWBCK_Explorer[3] = >
+[List] @ DLL_LWBCK_Explorer[3].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [5 | 2] // <
+
+DLL_LWBCK_Explorer[4] = >
+[List] @ DLL_LWBCK_Explorer[4].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [1 | 6] // <
+
+DLL_LWBCK_Explorer[5] = >
+[List] @ DLL_LWBCK_Explorer[5].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [6 | 3] // <
+
+DLL_LWBCK_Explorer[6] = >
+[List] @ DLL_LWBCK_Explorer[6].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [2 | 7] // <
+
+DLL_LWBCK_Explorer[7] = >
+[List] @ DLL_LWBCK_Explorer[7].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [7 | 4] // <
+
+DLL_LWBCK_Explorer[8] = >
+[List] @ DLL_LWBCK_Explorer[8].ElementAt(0) ... 
+[RFTPIndex | LFTPIndex] = [3 | 0] // <
+
+DLL_LWBCK_Explorer END
+ConstructCheckOverlapDictForLevel(0) ... AFTER CONSTRUCTION ... ... <<_D_END
+
+ANewHopeTestObj.count = >3<
+[firstWeekAll[2] | lastWeekAll[ 2] | d[2]] = [System.Int32[] | System.Int32[] | 2]
+ANewHope.count: Returning 1 ... (!b_FWLW_NotEqual)
+ANewHopeTestObj.count = >1<
+
+
