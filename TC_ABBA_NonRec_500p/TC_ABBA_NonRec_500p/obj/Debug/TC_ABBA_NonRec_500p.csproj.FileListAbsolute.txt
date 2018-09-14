@@ -1,0 +1,5 @@
+C:\Users\raiga\source\repos\TopCoder\TC_ABBA_NonRec_500p\TC_ABBA_NonRec_500p\bin\Debug\TC_ABBA_NonRec_500p.exe
+C:\Users\raiga\source\repos\TopCoder\TC_ABBA_NonRec_500p\TC_ABBA_NonRec_500p\bin\Debug\TC_ABBA_NonRec_500p.pdb
+C:\Users\raiga\source\repos\TopCoder\TC_ABBA_NonRec_500p\TC_ABBA_NonRec_500p\obj\Debug\TC_ABBA_NonRec_500p.csproj.CoreCompileInputs.cache
+C:\Users\raiga\source\repos\TopCoder\TC_ABBA_NonRec_500p\TC_ABBA_NonRec_500p\obj\Debug\TC_ABBA_NonRec_500p.exe
+C:\Users\raiga\source\repos\TopCoder\TC_ABBA_NonRec_500p\TC_ABBA_NonRec_500p\obj\Debug\TC_ABBA_NonRec_500p.pdb
