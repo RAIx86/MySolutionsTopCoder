@@ -1,0 +1,5 @@
+C:\Users\raiga\source\repos\TopCoder\TC_ABCPath_1000p\TC_ABCPath_1000p\bin\Release\TC_ABCPath_1000p.exe
+C:\Users\raiga\source\repos\TopCoder\TC_ABCPath_1000p\TC_ABCPath_1000p\bin\Release\TC_ABCPath_1000p.pdb
+C:\Users\raiga\source\repos\TopCoder\TC_ABCPath_1000p\TC_ABCPath_1000p\obj\Release\TC_ABCPath_1000p.csproj.CoreCompileInputs.cache
+C:\Users\raiga\source\repos\TopCoder\TC_ABCPath_1000p\TC_ABCPath_1000p\obj\Release\TC_ABCPath_1000p.exe
+C:\Users\raiga\source\repos\TopCoder\TC_ABCPath_1000p\TC_ABCPath_1000p\obj\Release\TC_ABCPath_1000p.pdb
