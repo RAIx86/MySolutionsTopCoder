@@ -1,0 +1,1329 @@
+autotestOnce Standalone Test BEGINS -->
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [40 | 20]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=19, TLy_index=19) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [2 | 2]
+ABoardGame.inspectRegion: inspectRegion(curregnum=2, TLx_index=18, TLy_index=18) ... BEGINS -->
+ABoardGame.inspectRegion: [i,j]=[19,19] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[19,20] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[20,19] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[20,20] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [4 | 1]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #2. Returning ...
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [40 | 20]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+A  B  B  B  A  B  B  .  .  B  A  A  .  B  A  .  .  A  .  A  B  A  A  A  B  B  .  .  .  B  A  B  A  A  .  .  .  B  .  B
+B  .  A  B  B  .  A  .  .  B  A  B  B  B  .  A  B  A  .  .  .  .  A  A  B  B  .  B  B  B  A  A  B  B  .  B  .  B  B  .
+B  .  .  A  A  B  .  B  B  .  A  .  .  .  B  B  .  .  A  .  .  B  B  B  B  A  A  A  .  A  A  .  B  A  B  .  .  .  A  .
+.  A  A  B  A  A  B  B  .  A  B  .  B  .  .  .  A  B  .  A  B  .  .  A  .  B  A  B  B  .  .  .  .  A  A  .  B  A  A  A
+B  B  B  B  B  A  A  .  A  B  B  A  A  A  B  .  A  .  .  .  .  A  .  A  A  .  A  B  B  A  B  A  A  B  B  .  B  A  B  B
+A  B  A  A  A  B  .  .  B  B  B  B  A  B  B  B  .  B  A  .  A  .  B  A  A  B  .  B  B  B  B  A  A  B  B  B  .  .  .  .
+.  B  .  A  .  .  .  .  A  A  A  A  .  B  A  B  .  A  A  .  B  B  B  A  .  A  A  .  A  .  .  A  B  B  A  .  .  B  B  A
+B  A  A  A  B  A  A  .  A  .  B  B  .  A  A  A  A  .  A  B  B  A  B  B  B  A  B  A  B  B  .  B  .  .  B  B  A  A  B  B
+A  B  .  B  A  A  A  B  B  .  .  .  A  .  .  A  .  .  .  B  B  .  A  B  .  A  .  A  B  B  A  .  B  B  B  .  A  A  A  A
+.  A  B  B  .  .  B  .  .  A  B  B  A  A  .  A  A  B  B  A  B  A  .  .  .  .  B  B  B  .  A  .  B  .  .  B  A  .  B  A
+.  .  A  B  A  B  .  A  B  A  B  .  B  A  .  B  B  B  .  A  A  .  A  .  A  .  A  B  B  B  .  B  .  B  A  B  A  A  .  B
+A  A  A  B  A  A  A  A  A  A  .  .  A  B  .  .  B  A  B  B  B  A  .  A  B  A  .  A  .  A  A  A  .  A  .  .  .  .  .  .
+B  .  B  A  B  A  B  A  B  B  A  A  .  B  A  .  B  .  .  A  A  A  A  .  .  .  .  .  B  .  A  B  B  .  A  B  .  .  B  A
+B  .  B  B  A  A  B  A  A  A  B  .  .  B  B  A  .  B  A  .  A  .  B  .  A  B  B  A  B  .  A  B  B  .  .  B  B  B  .  .
+B  B  B  B  A  B  B  A  B  .  B  A  B  .  A  B  A  .  B  B  .  A  .  B  A  A  A  A  B  .  B  A  B  B  A  B  B  A  B  B
+.  B  B  B  A  .  .  .  B  A  B  .  A  B  .  A  .  .  A  A  A  B  B  B  A  A  .  A  B  B  A  .  A  .  .  A  B  A  A  B
+A  B  B  B  B  .  A  A  B  A  .  B  .  B  B  B  A  A  B  .  A  .  A  A  A  B  B  A  .  .  B  B  B  .  .  .  .  A  A  A
+A  B  .  B  .  .  .  B  B  A  .  B  .  A  A  B  A  B  B  .  A  .  B  B  B  B  .  A  .  B  .  A  .  A  .  B  .  .  B  A
+B  A  .  B  .  .  B  A  B  A  B  A  .  A  A  B  A  A  .  B  A  .  .  .  B  .  B  B  B  .  B  B  A  A  B  A  .  .  .  B
+.  B  B  B  A  B  A  .  A  B  B  .  .  A  A  .  A  A  .  A  B  A  .  .  .  A  A  B  .  .  B  A  B  B  B  B  A  B  B  A
+B  .  B  A  A  .  B  A  .  .  .  B  .  .  A  .  B  .  .  A  B  .  .  A  .  B  B  B  B  B  B  .  B  .  B  B  B  .  .  A
+.  .  B  A  .  .  A  .  A  .  .  B  .  B  .  .  .  A  A  .  A  .  .  B  A  A  A  A  A  B  A  .  A  .  A  B  A  .  A  A
+B  .  B  .  B  .  .  A  A  B  B  A  .  A  .  .  A  A  .  .  .  A  B  B  B  A  B  .  A  B  .  A  A  .  B  B  B  A  .  B
+A  A  .  .  A  .  A  A  .  B  A  .  A  B  A  A  B  .  A  B  B  A  .  .  .  A  A  .  B  B  A  A  B  A  B  .  A  .  B  .
+A  B  A  .  A  A  A  .  B  A  A  .  .  A  A  A  A  A  .  .  .  A  B  B  A  .  A  .  A  B  A  B  A  B  A  .  .  A  B  .
+A  B  A  B  B  B  A  A  A  A  B  .  .  B  .  A  A  .  B  B  .  B  .  A  .  B  B  B  .  A  B  A  B  A  B  B  .  .  .  .
+B  .  B  .  .  A  .  B  B  A  .  A  B  A  .  B  B  A  .  A  .  .  A  A  .  A  A  B  A  B  A  A  .  B  .  A  .  .  A  B
+B  .  A  .  A  B  B  B  B  .  .  B  A  .  .  .  B  B  A  B  A  A  B  A  A  B  A  A  B  .  .  .  A  A  B  A  B  B  .  B
+B  .  A  A  B  B  A  A  B  .  B  B  .  B  B  B  A  A  B  B  A  B  A  .  A  A  B  .  B  .  A  .  .  .  A  A  A  B  B  B
+B  A  B  B  A  A  .  B  .  .  .  B  .  A  A  A  .  A  .  A  .  B  .  .  .  B  .  A  B  A  A  B  B  .  A  A  A  .  B  A
+A  A  A  B  A  B  .  B  B  .  B  .  .  B  .  A  B  .  .  .  B  .  A  B  .  A  A  A  .  A  .  A  .  B  A  .  A  A  B  A
+B  A  B  B  .  B  .  .  A  A  .  B  .  .  B  A  A  .  B  .  B  .  B  B  A  B  A  A  A  .  .  A  A  B  A  B  B  B  B  B
+B  A  .  .  B  B  A  .  .  .  .  B  B  .  B  B  B  A  B  A  A  B  .  A  B  B  B  B  B  A  .  B  A  A  B  A  A  .  A  .
+B  A  B  B  A  A  B  B  .  B  .  B  A  B  A  .  B  B  B  .  A  B  B  B  .  A  B  B  A  B  B  B  A  B  .  A  A  A  A  A
+A  .  B  .  B  B  A  B  A  .  B  .  B  A  .  .  .  .  B  .  .  A  A  B  A  A  B  B  .  A  .  B  B  A  B  A  A  B  A  B
+.  .  A  B  .  B  A  .  .  .  A  B  B  A  A  A  .  .  B  A  .  .  .  A  .  A  B  A  .  B  .  B  B  .  .  A  .  .  B  .
+.  B  B  .  .  B  .  A  A  B  A  A  .  .  .  A  .  A  B  .  A  A  A  B  A  .  .  B  A  A  A  .  B  .  A  A  A  .  B  B
+A  A  A  A  A  B  .  B  A  .  B  .  A  .  B  .  B  A  .  .  B  A  A  A  B  B  .  .  B  B  A  .  B  A  B  A  .  .  A  B
+A  A  B  B  B  A  .  .  B  A  .  .  A  B  .  .  A  A  B  .  .  .  A  .  B  B  A  A  A  B  A  .  A  A  B  B  .  B  B  A
+B  A  A  B  .  A  .  A  A  B  .  .  A  A  .  A  A  B  .  A  A  .  B  A  A  .  .  .  .  B  A  B  .  B  B  .  B  B  A  B
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+Autotest_ABoardGame.autoRandTestOnce: ABGResult = >Alice<
+
+<-- ENDS Test Standalone autotestOnce
+
+
+
+Autotest_ABoardGame.autoRandTestMultiple: Running 20 tests with random data
+TEST #1 BEGIN -->
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [16 | 8]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=7, TLy_index=7) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [1 | 2]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #1. Returning ...
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [16 | 8]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+.  .  B  B  B  A  A  A  A  B  .  A  A  .  B  A
+A  .  B  .  A  .  B  B  .  .  .  A  .  B  A  A
+B  .  .  .  B  .  B  B  B  .  A  B  B  B  A  B
+A  B  B  B  .  .  .  .  A  A  B  B  B  A  B  .
+A  B  .  B  .  .  .  B  A  .  A  B  .  .  .  B
+.  A  A  B  A  .  B  B  .  A  B  B  A  A  A  B
+A  A  B  A  .  .  B  A  B  .  B  .  B  B  A  A
+A  A  .  A  .  A  .  B  A  A  B  .  B  A  A  A
+.  .  B  B  B  .  B  .  B  A  .  A  B  B  A  B
+.  A  A  A  B  .  B  .  B  .  .  .  B  .  .  B
+.  B  A  .  A  B  .  A  .  .  B  .  B  .  A  .
+A  .  .  A  .  .  B  A  A  B  .  B  A  B  B  .
+B  B  A  A  B  A  B  B  B  .  B  .  A  .  B  .
+.  .  .  B  .  B  B  .  .  .  B  .  .  A  A  A
+A  B  B  A  B  .  B  .  B  B  B  A  B  .  .  B
+.  A  .  A  .  A  A  .  .  B  A  B  B  B  B  B
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+Autotest_ABoardGame.autoRandTestOnce: ABGResult = >Bob<
+
+<-- END TEST #1
+
+
+TEST #2 BEGIN -->
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [8 | 4]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=3, TLy_index=3) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [0 | 2]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #1. Returning ...
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [8 | 4]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+B  B  B  A  B  B  .  B
+.  .  A  .  B  B  .  .
+A  .  .  A  A  B  .  B
+B  A  A  .  .  A  .  .
+.  A  A  B  B  A  B  B
+.  B  .  A  .  .  B  .
+B  B  A  .  .  A  B  .
+B  A  .  A  B  A  B  B
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+Autotest_ABoardGame.autoRandTestOnce: ABGResult = >Bob<
+
+<-- END TEST #2
+
+
+TEST #3 BEGIN -->
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [36 | 18]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=17, TLy_index=17) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [0 | 1]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #1. Returning ...
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [36 | 18]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+B  A  A  A  B  B  A  A  A  B  B  B  .  B  .  B  A  A  B  .  .  .  B  .  A  .  B  B  A  A  B  A  A  B  B  .
+B  .  A  A  A  .  .  .  A  B  .  B  A  .  A  .  A  B  .  B  B  B  A  B  A  B  .  .  .  A  B  A  A  .  .  B
+A  A  .  A  A  .  B  .  .  .  B  B  .  .  .  B  B  .  B  A  B  B  .  .  A  .  A  .  .  B  A  A  .  .  .  .
+.  .  B  B  .  B  .  A  A  A  A  A  A  A  .  A  B  .  .  .  A  .  .  A  .  B  .  B  .  A  .  .  .  A  B  B
+B  .  A  .  .  .  B  .  .  .  B  .  .  .  .  A  .  A  B  .  .  A  .  B  .  A  B  A  B  A  A  A  B  A  .  B
+B  .  .  B  B  A  B  .  .  .  B  .  A  B  .  .  B  B  .  B  A  .  A  B  B  B  A  B  B  B  B  B  A  B  B  A
+A  A  B  .  B  .  B  .  .  B  .  .  A  B  .  .  B  A  B  B  .  B  A  .  .  .  A  B  B  A  .  .  A  .  .  B
+.  .  .  A  B  B  .  .  .  A  A  A  B  B  .  .  .  .  A  B  .  B  .  B  B  .  A  B  .  .  .  B  B  A  A  B
+A  A  A  A  .  A  A  B  .  .  A  A  A  .  .  A  B  A  B  B  A  B  B  .  A  A  A  .  A  .  B  B  B  B  B  .
+.  A  .  B  B  A  .  B  .  A  B  .  .  .  .  B  .  B  B  .  B  A  .  B  A  A  A  .  B  .  .  .  B  A  A  B
+B  .  .  .  .  .  A  A  .  A  A  B  A  A  .  .  .  .  A  B  A  A  B  A  .  .  A  A  A  B  B  .  B  A  .  .
+.  B  A  B  A  .  .  .  A  .  .  A  .  A  .  B  .  .  B  A  B  .  A  .  B  A  A  B  .  B  .  .  B  .  .  B
+.  .  B  B  B  B  A  .  A  A  A  A  B  .  .  .  .  B  A  .  B  B  .  A  B  B  .  B  .  .  B  A  A  B  .  A
+A  .  .  .  B  A  B  A  A  .  .  .  B  A  .  .  .  A  A  A  .  B  .  A  B  .  A  B  .  .  .  A  A  .  B  A
+.  B  A  A  A  B  .  .  B  A  .  .  .  .  B  A  B  B  B  .  A  .  A  .  A  .  B  A  A  .  .  .  B  .  .  A
+.  .  A  A  B  A  B  B  .  A  B  .  B  .  .  B  A  .  A  A  A  B  A  A  A  .  .  .  A  A  B  A  .  A  A  B
+B  B  B  .  A  B  A  .  A  .  B  A  A  B  B  .  .  B  A  B  .  A  .  .  B  .  B  .  B  B  .  B  B  A  A  .
+A  A  A  B  A  A  .  A  A  B  .  .  B  .  A  B  .  .  .  A  B  B  B  B  A  B  B  .  .  A  B  .  A  .  B  .
+B  .  A  B  A  .  B  .  A  .  A  .  A  B  B  .  B  .  B  .  B  B  A  .  .  A  A  A  A  .  B  .  B  B  .  A
+.  A  A  .  .  .  B  B  A  B  B  B  B  .  B  A  A  .  A  .  B  A  .  A  B  B  .  A  A  B  B  B  .  B  .  A
+.  .  .  .  A  .  .  A  B  .  B  A  B  A  B  .  B  .  B  .  B  .  A  B  .  A  B  B  A  A  .  .  A  A  B  B
+.  A  .  B  A  B  .  .  A  B  B  .  .  .  A  .  .  .  .  .  B  B  .  .  B  B  A  B  .  B  A  B  .  .  .  A
+.  .  .  .  .  A  A  A  B  B  B  A  .  .  A  A  A  B  .  B  B  .  A  .  B  B  .  B  B  A  .  A  A  .  .  .
+A  .  .  B  A  B  B  .  .  .  B  A  B  A  A  B  A  A  .  A  .  .  B  B  B  .  .  B  .  B  A  .  .  A  .  B
+B  B  B  .  B  B  A  B  A  .  A  B  A  B  .  .  A  .  A  B  A  B  .  B  .  .  A  A  B  B  B  B  A  .  .  B
+.  .  .  A  .  .  B  .  .  A  B  A  B  B  .  .  .  A  A  A  B  .  A  B  B  .  A  B  A  B  A  B  B  B  .  B
+A  A  B  B  A  A  .  B  B  .  B  A  .  B  B  .  B  .  .  A  .  A  .  A  .  .  B  A  A  A  .  A  B  A  .  .
+.  .  .  A  A  B  A  .  A  .  .  .  A  A  .  B  B  .  .  .  A  B  B  A  .  .  B  B  .  B  B  B  B  .  A  .
+.  B  .  A  A  A  .  A  A  B  .  .  A  A  B  .  B  A  B  A  A  .  B  B  A  .  .  .  B  A  B  B  .  A  .  .
+A  B  B  A  .  B  A  B  .  B  A  .  .  .  .  A  A  A  B  A  A  A  A  B  A  .  B  .  A  B  .  A  B  .  .  .
+B  B  A  .  B  A  .  B  .  .  A  .  B  A  A  .  B  B  .  .  B  A  .  A  .  B  B  A  .  .  B  A  .  .  .  .
+.  B  B  A  B  .  .  B  B  .  B  .  A  A  B  .  .  A  B  A  B  A  A  A  .  B  B  .  B  A  .  B  B  B  A  A
+.  B  A  .  B  B  B  A  A  B  .  .  A  B  A  .  B  B  B  B  B  B  B  .  A  .  .  B  .  .  A  .  A  B  .  A
+.  .  B  .  .  .  A  A  .  .  B  .  .  A  A  A  A  B  B  B  A  A  B  .  .  .  A  A  A  A  .  .  .  .  .  B
+.  .  .  B  A  A  A  A  B  A  B  .  .  A  .  B  .  A  A  B  A  .  A  .  .  .  .  .  A  .  .  A  A  B  A  B
+.  A  B  .  A  B  B  B  B  B  A  .  A  A  .  B  B  B  A  .  .  .  .  B  A  A  .  .  A  B  .  B  A  B  .  .
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+Autotest_ABoardGame.autoRandTestOnce: ABGResult = >Bob<
+
+<-- END TEST #3
+
+
+TEST #4 BEGIN -->
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [26 | 13]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=12, TLy_index=12) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [2 | 1]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #1. Returning ...
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [26 | 13]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+A  A  .  B  B  B  A  B  A  B  A  .  B  B  B  A  A  .  .  A  A  B  .  B  .  A
+.  B  .  .  .  A  A  .  B  A  B  B  A  B  B  .  A  .  .  A  .  .  A  A  .  .
+A  B  .  B  A  A  .  A  B  .  .  A  .  .  B  .  A  B  .  .  B  B  .  A  A  A
+.  B  B  A  B  B  A  A  A  .  .  .  .  A  B  .  .  .  A  A  A  .  B  A  .  B
+B  .  A  .  .  B  A  A  B  A  .  B  A  A  .  B  B  .  .  B  B  B  B  .  B  .
+A  A  A  .  A  B  A  .  A  A  .  B  .  A  B  .  .  B  A  B  .  .  A  B  B  .
+A  B  A  A  B  B  A  .  B  A  A  .  A  A  A  A  A  B  .  A  .  B  .  .  B  A
+.  A  A  B  .  .  B  B  A  .  .  .  .  B  B  .  .  A  B  A  A  .  A  B  .  B
+B  A  .  B  B  A  B  B  .  A  B  .  B  B  A  .  .  A  B  A  .  B  .  .  B  .
+A  B  .  .  .  .  .  A  A  A  B  .  B  .  B  B  .  A  A  A  .  A  .  B  .  A
+A  B  .  A  B  .  A  .  .  .  .  .  A  .  A  A  A  A  A  A  .  B  .  B  B  B
+.  B  .  A  .  A  A  .  .  A  B  .  B  B  B  B  A  B  B  .  A  B  .  .  A  B
+A  B  A  B  B  A  B  A  A  B  .  .  A  B  .  B  A  A  B  B  B  B  B  A  B  B
+.  .  B  A  .  A  A  B  A  B  B  A  .  A  A  B  B  A  .  B  B  A  A  .  B  .
+A  B  .  B  .  A  .  .  B  .  B  .  .  .  B  .  A  A  .  .  A  B  A  A  A  B
+B  A  A  B  B  .  .  A  .  B  B  B  B  B  B  .  B  B  .  B  A  .  .  .  .  A
+.  B  B  B  B  .  B  A  B  .  .  .  A  .  A  .  A  A  A  .  B  A  B  A  .  .
+A  B  A  B  B  B  B  B  .  A  B  A  A  B  .  B  .  B  A  .  A  .  B  B  .  B
+B  A  B  .  A  A  .  B  B  .  A  .  A  B  B  .  A  .  A  .  A  .  .  A  A  .
+A  A  B  A  A  B  .  .  .  B  .  .  A  A  B  B  .  A  A  A  B  B  A  B  .  .
+B  .  B  .  A  B  .  B  .  B  .  A  B  B  A  A  B  .  .  B  .  .  B  B  .  .
+.  A  A  .  .  A  B  B  A  .  B  A  B  B  A  B  A  .  B  B  B  .  .  A  .  B
+B  A  .  B  B  .  .  B  B  B  A  A  .  .  .  A  A  A  .  B  B  B  A  A  .  B
+.  A  A  A  A  A  .  B  B  B  B  .  B  B  A  .  .  B  B  A  A  .  .  B  B  .
+B  B  A  A  A  .  .  .  A  .  B  B  B  A  A  B  A  A  B  B  .  A  A  B  B  .
+.  B  B  .  A  B  B  A  .  B  A  B  B  .  A  B  B  A  B  B  .  A  .  B  .  B
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+Autotest_ABoardGame.autoRandTestOnce: ABGResult = >Alice<
+
+<-- END TEST #4
+
+
+TEST #5 BEGIN -->
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [12 | 6]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=5, TLy_index=5) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [2 | 1]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #1. Returning ...
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [12 | 6]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+A  A  A  A  .  .  A  .  A  A  A  .
+.  A  A  A  .  A  .  .  .  A  A  .
+.  .  A  .  B  .  A  A  B  B  A  A
+B  B  B  B  A  .  .  B  A  B  B  A
+B  A  A  B  A  .  B  .  A  A  A  .
+.  B  B  B  A  A  A  B  .  A  B  B
+B  A  .  .  B  .  B  B  A  .  A  B
+B  B  .  .  A  B  .  B  A  .  .  .
+B  B  A  A  B  A  B  A  B  B  .  A
+.  B  B  B  B  .  B  A  A  .  .  B
+A  B  B  B  B  A  A  .  A  A  B  .
+B  B  A  A  A  .  A  A  .  .  .  B
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+Autotest_ABoardGame.autoRandTestOnce: ABGResult = >Alice<
+
+<-- END TEST #5
+
+
+TEST #6 BEGIN -->
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [26 | 13]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=12, TLy_index=12) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [2 | 1]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #1. Returning ...
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [26 | 13]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+B  .  B  B  .  .  B  .  B  .  .  B  .  .  A  A  A  .  .  .  B  .  A  .  A  .
+A  .  .  .  B  B  .  .  .  B  .  B  B  B  .  A  A  B  A  .  B  A  .  .  .  .
+A  .  A  .  B  .  A  A  B  .  .  B  B  B  .  A  A  B  B  B  B  B  A  B  B  B
+B  B  A  A  .  .  A  B  B  A  B  .  .  A  A  B  .  A  A  B  A  .  .  A  .  A
+A  A  B  B  B  .  B  A  A  .  .  B  .  A  B  .  .  B  .  A  .  B  B  .  .  .
+A  .  B  .  B  A  A  B  .  A  .  .  B  B  B  .  .  B  B  B  A  A  A  A  .  B
+A  .  B  .  .  B  .  .  .  B  .  A  B  B  A  B  A  B  A  .  .  A  B  .  B  A
+B  A  .  .  .  A  .  A  .  B  .  .  A  A  A  .  B  A  A  .  A  A  A  .  .  .
+A  .  B  .  A  .  A  B  A  B  A  A  .  B  A  B  .  .  B  B  A  .  .  A  .  B
+B  .  A  A  A  .  .  .  A  .  B  .  A  A  B  .  .  B  .  B  A  B  B  .  B  A
+B  B  .  A  A  A  A  B  A  B  B  A  B  A  A  .  B  B  .  .  B  A  .  B  .  B
+B  A  A  .  A  B  .  .  B  A  A  .  .  A  B  B  .  A  A  .  A  .  A  B  A  A
+.  B  .  A  .  B  A  .  .  A  B  B  A  A  A  B  B  A  .  .  B  B  A  .  B  B
+A  A  A  B  .  .  .  A  B  A  A  B  B  .  B  A  B  B  A  B  .  A  .  .  A  A
+.  B  B  B  B  .  .  A  A  A  B  A  A  .  B  .  .  .  A  A  .  .  A  B  A  B
+.  .  .  A  B  B  B  B  .  B  .  A  .  B  B  A  B  B  B  A  A  B  .  .  B  .
+B  .  B  .  B  A  B  .  .  .  B  A  .  A  .  .  .  A  A  B  A  .  B  B  B  B
+.  A  B  B  .  A  .  B  A  B  .  A  .  .  .  .  B  B  .  B  .  B  A  B  B  .
+.  .  .  B  A  A  B  .  A  B  B  B  A  A  A  A  A  B  .  .  A  B  .  A  B  .
+.  A  B  B  .  A  .  A  B  A  .  B  A  .  .  A  B  B  B  .  B  B  A  B  A  .
+B  .  B  A  .  B  .  B  A  A  A  .  B  B  .  .  .  A  B  B  A  A  .  A  .  B
+.  B  B  B  .  A  A  .  B  .  .  A  A  A  B  .  B  B  .  .  .  .  A  .  B  .
+A  .  .  B  .  A  B  A  B  A  .  .  A  A  B  .  A  .  A  .  .  A  .  B  B  B
+B  .  .  .  B  B  .  A  .  B  A  .  A  B  B  A  .  A  .  .  A  B  B  A  .  B
+B  B  A  .  .  A  A  B  .  B  B  B  .  A  .  A  A  A  B  A  .  .  A  .  B  .
+B  .  A  .  B  .  A  .  .  A  .  .  .  .  .  B  B  A  .  A  B  B  .  .  A  A
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+Autotest_ABoardGame.autoRandTestOnce: ABGResult = >Alice<
+
+<-- END TEST #6
+
+
+TEST #7 BEGIN -->
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [38 | 19]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=18, TLy_index=18) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [1 | 0]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #1. Returning ...
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [38 | 19]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+.  .  .  B  B  B  A  .  B  A  A  .  .  B  A  B  .  B  A  B  B  B  A  A  A  .  A  A  .  .  A  B  B  A  B  A  A  .
+B  B  B  A  A  A  A  B  A  .  A  A  A  B  .  .  .  A  B  B  B  B  A  .  .  B  A  .  B  B  A  A  B  .  .  .  .  B
+A  A  A  B  .  B  A  .  .  .  B  B  A  A  B  B  B  A  A  .  A  .  A  B  .  B  .  A  .  A  .  A  A  B  .  B  B  .
+B  .  .  A  B  B  A  .  B  .  .  .  A  B  .  .  B  B  .  B  .  B  .  .  .  .  .  B  B  .  A  .  .  .  .  A  A  A
+A  .  B  .  A  .  B  .  .  A  B  A  .  B  B  A  .  A  A  .  A  .  B  .  B  B  B  .  A  B  .  B  .  B  B  A  A  .
+B  .  A  A  .  B  A  A  .  .  A  B  .  .  A  A  .  A  A  .  A  B  A  B  B  B  B  .  B  B  .  B  A  A  B  B  B  A
+A  .  B  A  B  B  .  B  .  A  B  B  B  A  .  B  B  .  B  B  B  B  A  A  .  B  A  .  B  B  A  .  B  B  A  B  A  A
+.  B  .  A  B  A  B  .  .  .  B  B  B  B  .  A  .  B  B  B  B  A  B  .  .  A  A  .  .  A  .  B  A  B  A  .  B  B
+.  A  .  A  .  A  A  .  A  B  .  B  .  B  .  .  B  B  A  .  A  B  A  .  .  .  .  .  B  A  B  .  B  B  .  B  .  B
+B  A  .  .  A  B  .  B  A  B  B  B  .  B  .  .  A  B  A  .  A  .  B  A  B  .  .  .  A  A  .  B  A  A  A  .  A  A
+A  B  A  B  B  A  A  .  A  A  A  .  A  A  B  .  A  B  .  B  B  A  B  .  A  A  B  A  B  B  A  A  B  A  A  B  .  B
+B  B  .  B  .  .  .  B  A  B  A  A  A  B  A  .  .  A  .  A  B  B  .  A  B  B  .  A  A  A  .  .  A  B  .  A  B  .
+B  B  A  B  .  A  A  A  B  B  A  .  B  A  .  .  A  A  .  .  A  A  A  B  B  .  B  B  A  B  .  .  A  .  B  A  .  .
+B  B  A  A  A  A  .  B  .  .  A  A  B  .  B  B  B  B  B  B  A  A  B  .  A  .  .  A  B  B  B  B  .  B  .  A  .  .
+A  A  B  .  A  .  A  .  A  .  A  B  A  A  .  A  B  A  A  A  A  A  A  .  .  B  A  B  A  .  .  B  .  .  A  B  .  B
+.  B  B  B  .  A  A  .  A  B  B  .  A  B  .  B  .  .  .  .  .  B  B  B  B  B  A  B  .  B  .  B  B  A  B  B  .  .
+B  A  B  A  B  .  .  B  .  B  .  B  .  B  B  .  B  A  A  .  .  B  A  .  A  B  B  A  B  .  A  A  B  A  B  .  B  .
+A  .  B  .  B  B  .  A  .  B  A  B  .  A  B  A  .  .  A  .  A  .  A  .  A  .  A  B  .  B  .  B  B  .  A  A  A  .
+.  B  A  .  B  A  A  .  A  A  B  B  B  B  .  .  B  B  .  .  B  B  B  A  B  A  B  B  .  A  A  B  .  .  A  .  .  B
+A  A  .  A  .  A  A  A  A  B  .  .  A  B  B  B  B  B  A  .  A  B  B  B  A  A  A  A  .  B  B  .  .  A  A  .  .  A
+.  A  A  A  A  A  .  A  .  B  A  B  B  B  .  .  A  .  B  A  A  B  A  .  B  B  .  .  .  .  B  B  B  A  B  .  .  .
+A  A  .  .  B  .  A  B  .  .  A  A  .  A  A  .  A  B  A  A  .  B  B  .  B  .  .  B  A  B  A  .  .  B  B  A  B  B
+A  B  .  A  B  A  B  .  A  A  B  .  .  A  .  .  .  .  .  .  B  B  .  B  A  B  .  B  A  B  B  .  A  B  A  B  A  .
+.  B  B  .  .  B  A  B  B  .  A  A  B  .  A  .  A  .  B  B  .  A  A  A  B  .  B  B  B  B  .  A  B  A  A  B  B  .
+B  A  B  .  .  .  A  .  .  .  .  B  B  B  A  .  A  B  A  A  A  .  .  B  .  A  .  .  .  B  B  .  A  B  A  A  .  .
+A  B  .  B  .  .  .  A  .  A  A  B  .  B  B  A  B  .  B  .  A  .  .  A  A  B  A  A  A  A  B  .  A  B  A  .  B  B
+A  A  .  .  A  .  .  A  B  A  A  .  .  B  .  .  B  B  B  B  A  B  B  .  .  .  .  B  B  B  A  .  .  A  B  A  A  B
+B  A  B  A  .  A  .  A  A  A  .  A  .  .  B  .  A  .  .  A  .  B  .  B  B  A  .  B  A  .  .  B  .  .  .  A  A  A
+B  A  .  B  B  B  B  A  B  B  B  A  .  .  B  A  .  A  A  .  B  .  A  B  A  B  B  A  B  .  .  A  B  A  A  B  A  A
+.  B  .  B  B  B  A  .  A  .  .  .  A  B  .  A  B  .  .  B  B  A  A  A  .  B  B  A  B  B  .  A  .  B  B  .  A  A
+A  .  A  A  B  .  B  .  .  A  A  A  .  B  B  .  .  .  B  B  B  A  .  .  A  B  A  .  .  B  A  A  A  A  B  A  A  A
+B  A  .  .  .  A  A  A  .  B  B  A  .  .  B  B  B  A  .  B  .  .  B  B  .  A  A  A  A  B  .  A  B  B  A  A  B  .
+A  B  .  .  .  .  B  .  .  B  .  B  .  B  B  .  A  .  B  B  A  .  A  .  A  A  B  A  B  B  B  A  .  .  .  A  B  .
+A  .  A  .  B  B  B  B  .  A  .  B  A  B  B  A  .  B  B  .  .  B  A  A  B  B  .  B  .  .  .  A  A  A  B  .  B  A
+B  B  B  B  B  A  B  .  A  A  .  .  A  A  .  .  A  .  .  .  B  .  .  .  .  .  B  B  B  .  .  .  .  .  A  .  A  B
+.  .  .  B  A  B  .  .  .  .  B  B  A  .  .  B  B  B  .  .  B  B  .  .  B  A  A  .  A  A  .  A  B  .  .  .  A  .
+.  A  A  .  A  .  A  .  B  A  .  A  A  .  .  B  .  B  A  A  A  .  A  .  .  B  .  A  A  B  .  A  A  B  B  B  .  B
+B  A  B  .  .  A  A  .  A  .  A  .  A  B  B  A  .  A  .  A  A  B  .  A  .  A  A  .  .  B  B  B  .  A  .  A  .  B
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+Autotest_ABoardGame.autoRandTestOnce: ABGResult = >Alice<
+
+<-- END TEST #7
+
+
+TEST #8 BEGIN -->
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [22 | 11]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=10, TLy_index=10) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [0 | 1]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #1. Returning ...
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [22 | 11]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+A  .  A  B  .  A  A  B  B  B  A  B  B  B  .  B  A  A  A  .  B  .
+A  .  B  B  .  A  .  B  B  B  B  .  .  A  A  A  A  A  B  B  .  B
+.  A  .  A  A  B  .  A  B  B  B  B  B  A  .  A  B  .  B  A  A  .
+.  B  .  B  B  A  A  A  B  .  A  .  A  B  .  .  A  B  B  B  .  A
+A  A  B  A  A  .  .  .  .  B  B  .  A  A  A  B  A  .  .  A  A  B
+B  .  .  B  B  .  B  A  B  B  .  .  B  B  .  B  .  A  B  B  .  B
+B  B  A  B  B  B  A  .  B  .  A  .  .  .  A  B  B  A  A  .  A  .
+A  B  .  B  .  .  .  .  .  B  B  A  A  B  A  .  A  .  A  .  A  A
+B  B  .  A  A  B  .  A  B  A  A  .  B  .  .  .  .  B  .  .  .  .
+A  B  B  .  B  .  .  A  B  B  .  .  .  A  B  .  .  B  .  .  .  B
+.  B  A  A  .  A  A  .  .  A  B  .  B  A  B  A  .  .  B  A  B  .
+A  B  .  B  A  A  .  B  .  A  .  .  .  A  .  A  .  B  A  .  .  B
+B  A  B  B  A  B  B  .  A  B  .  A  B  B  B  A  A  .  A  B  B  A
+.  .  B  B  B  .  A  .  A  B  A  .  .  B  A  .  .  A  .  .  .  A
+.  .  B  A  B  B  B  A  .  B  .  A  B  .  .  .  .  B  .  B  B  A
+A  .  .  .  A  A  A  .  B  B  B  B  .  .  .  A  B  B  A  A  .  .
+.  .  A  A  .  A  A  B  A  A  .  .  .  .  B  .  B  B  .  A  .  B
+B  A  .  A  .  .  A  B  B  A  B  B  .  A  .  .  A  A  B  A  B  B
+B  A  .  A  .  B  .  .  A  B  .  A  A  A  B  B  A  B  A  B  .  .
+A  A  .  B  .  B  A  .  .  .  .  A  B  B  A  .  .  B  B  .  .  .
+B  .  A  .  A  .  .  .  A  .  B  .  .  .  A  B  .  A  B  B  .  A
+B  .  B  .  A  A  .  B  A  A  .  B  B  A  B  A  A  B  .  .  .  A
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+Autotest_ABoardGame.autoRandTestOnce: ABGResult = >Bob<
+
+<-- END TEST #8
+
+
+TEST #9 BEGIN -->
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [12 | 6]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=5, TLy_index=5) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [4 | 0]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #1. Returning ...
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [12 | 6]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+.  .  B  .  B  .  A  A  B  A  B  B
+A  A  B  B  .  A  B  .  B  .  B  A
+A  A  B  A  A  B  A  A  A  .  .  A
+B  B  B  B  .  A  B  B  A  .  A  .
+.  A  A  .  A  A  A  .  A  B  B  B
+B  A  .  .  A  A  A  A  A  A  .  A
+.  A  A  B  A  A  A  A  .  B  A  A
+B  A  A  A  B  A  A  A  .  .  A  B
+A  .  B  .  .  .  .  .  A  A  A  A
+A  .  B  A  B  B  B  .  A  .  A  .
+A  .  B  A  A  .  A  .  .  B  B  B
+.  A  B  A  .  A  .  A  A  A  .  .
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+Autotest_ABoardGame.autoRandTestOnce: ABGResult = >Alice<
+
+<-- END TEST #9
+
+
+TEST #10 BEGIN -->
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [14 | 7]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=6, TLy_index=6) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [1 | 1]
+ABoardGame.inspectRegion: inspectRegion(curregnum=2, TLx_index=5, TLy_index=5) ... BEGINS -->
+ABoardGame.inspectRegion: [i,j]=[6,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[6,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[7,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[7,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [2 | 2]
+ABoardGame.inspectRegion: inspectRegion(curregnum=3, TLx_index=4, TLy_index=4) ... BEGINS -->
+ABoardGame.inspectRegion: [i,j]=[5,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[5,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[5,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[5,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[6,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[6,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[6,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[6,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[7,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[7,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[7,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[7,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[8,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[8,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[8,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[8,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [5 | 10]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #3. Returning ...
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [14 | 7]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+A  B  B  B  A  B  A  B  B  B  .  A  B  .
+B  A  B  A  .  B  A  A  A  A  A  A  .  .
+.  .  A  A  .  .  .  A  B  A  .  .  A  A
+A  B  B  A  B  B  B  A  .  .  A  A  B  .
+A  B  A  .  .  A  B  .  B  .  A  B  .  B
+B  A  A  .  A  .  .  .  B  A  .  A  B  .
+A  A  .  B  B  A  .  A  .  .  A  A  B  B
+A  .  .  .  B  .  .  B  B  A  .  B  .  B
+.  A  A  B  B  .  .  A  .  B  A  .  B  A
+B  B  .  A  B  B  B  .  B  A  B  B  .  B
+.  .  .  A  A  A  B  .  .  B  B  .  .  .
+A  A  B  .  B  .  .  A  A  .  .  B  .  A
+.  A  .  .  .  A  B  .  .  A  .  A  .  .
+B  A  .  B  .  .  B  A  B  .  A  A  .  B
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+Autotest_ABoardGame.autoRandTestOnce: ABGResult = >Bob<
+
+<-- END TEST #10
+
+
+TEST #11 BEGIN -->
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [28 | 14]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=13, TLy_index=13) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [2 | 2]
+ABoardGame.inspectRegion: inspectRegion(curregnum=2, TLx_index=12, TLy_index=12) ... BEGINS -->
+ABoardGame.inspectRegion: [i,j]=[13,13] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[13,14] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[14,13] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[14,14] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [5 | 2]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #2. Returning ...
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [28 | 14]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+.  A  B  B  A  .  B  .  B  .  B  B  A  A  B  A  A  A  A  B  .  A  B  .  A  B  B  B
+A  B  .  A  .  B  .  .  A  .  B  .  A  B  A  B  A  B  B  .  .  B  A  A  .  .  B  .
+B  .  A  .  A  A  B  .  A  A  B  B  B  B  .  B  B  A  B  B  .  .  B  .  A  .  .  B
+B  .  B  .  .  .  A  B  B  .  B  A  A  A  B  .  .  .  B  A  B  .  B  .  B  A  A  .
+A  B  B  B  A  A  B  A  .  B  .  B  B  B  .  .  B  B  B  .  A  .  .  A  B  B  .  .
+B  .  B  B  .  B  B  A  A  A  .  .  .  B  A  B  A  .  .  A  .  .  A  A  .  A  B  B
+B  B  A  .  A  B  .  .  .  A  B  .  A  .  B  A  .  B  A  .  B  A  .  B  B  .  A  .
+B  B  .  .  .  A  B  B  A  .  B  A  .  A  B  A  B  .  A  A  A  .  A  B  A  .  .  B
+B  .  A  B  B  A  B  B  A  .  .  A  B  A  A  .  .  .  A  A  B  .  .  .  B  A  .  B
+A  A  B  A  A  A  A  B  .  .  .  .  .  A  .  .  .  .  B  A  .  B  B  B  B  B  .  B
+.  B  .  A  A  .  A  .  A  B  .  B  .  .  A  .  .  B  B  B  A  A  .  .  B  B  .  .
+.  A  .  B  A  B  B  A  .  .  B  .  .  .  B  B  .  A  A  .  A  .  B  A  .  A  B  B
+.  A  .  B  A  B  A  A  .  A  A  B  A  A  .  A  .  B  B  A  .  A  .  A  B  A  B  A
+B  B  B  A  .  A  A  .  .  .  .  A  B  B  B  B  A  .  B  A  .  B  A  B  B  A  B  B
+B  .  A  .  A  A  B  B  B  A  B  A  .  A  A  A  .  B  .  B  .  A  .  .  B  A  A  A
+A  A  B  B  .  .  A  A  B  .  .  A  .  .  .  A  A  B  B  B  A  A  B  A  B  A  B  B
+.  B  B  A  A  A  B  B  B  .  A  .  .  A  B  .  B  B  B  .  A  .  B  A  B  B  A  A
+.  A  A  B  A  .  B  A  B  .  A  B  B  B  B  B  A  B  .  .  B  B  B  A  B  B  A  .
+.  B  .  B  A  B  B  B  .  .  .  A  .  A  B  .  A  .  B  B  B  A  .  .  .  A  B  A
+B  .  A  B  B  B  B  .  A  .  A  A  A  A  .  B  .  B  A  A  .  .  .  B  A  .  B  .
+B  .  B  A  .  B  .  .  B  A  .  A  .  B  .  A  .  B  B  B  B  A  .  B  A  A  A  .
+A  B  B  B  A  .  B  A  B  A  A  B  A  .  .  .  .  .  A  B  A  B  .  .  B  A  A  A
+.  A  .  B  A  .  .  .  .  A  A  A  A  B  .  B  A  .  A  B  B  A  B  B  A  .  .  B
+.  B  A  A  B  A  A  A  A  B  B  B  A  A  .  B  B  A  A  B  .  A  .  .  A  .  .  B
+B  B  B  B  A  A  A  A  A  A  B  .  B  B  A  B  A  .  A  A  B  A  .  .  B  B  B  B
+.  B  A  .  A  B  .  .  A  A  A  .  A  B  B  B  .  B  .  A  A  A  B  B  B  B  A  B
+B  .  .  .  B  B  B  B  .  .  B  .  B  B  B  A  B  B  A  .  B  B  A  A  B  B  B  B
+A  .  A  .  B  B  A  A  A  A  A  B  A  A  B  .  .  A  B  B  .  A  .  A  B  A  .  A
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+Autotest_ABoardGame.autoRandTestOnce: ABGResult = >Alice<
+
+<-- END TEST #11
+
+
+TEST #12 BEGIN -->
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [4 | 2]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=1, TLy_index=1) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [3 | 1]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #1. Returning ...
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [4 | 2]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+.  B  A  A
+.  B  A  B
+.  A  A  B
+A  A  B  A
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+Autotest_ABoardGame.autoRandTestOnce: ABGResult = >Alice<
+
+<-- END TEST #12
+
+
+TEST #13 BEGIN -->
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [16 | 8]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=7, TLy_index=7) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [1 | 2]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #1. Returning ...
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [16 | 8]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+.  A  A  A  B  A  .  .  .  A  .  A  A  B  B  A
+B  B  .  A  B  A  .  A  A  .  A  B  A  .  .  B
+A  B  A  .  A  B  B  B  A  A  .  B  B  B  .  .
+B  A  B  .  B  .  B  B  B  .  A  .  A  B  .  A
+A  B  .  B  A  .  A  A  A  A  .  A  A  A  .  B
+A  A  A  .  A  A  .  A  A  B  A  A  B  B  B  .
+A  .  A  .  .  A  .  B  A  A  .  B  A  A  B  A
+.  B  B  .  B  .  .  A  B  .  B  B  .  .  .  B
+.  A  .  A  A  .  .  .  B  B  .  A  A  B  A  .
+A  .  A  .  A  B  B  B  A  A  A  .  B  B  .  A
+B  B  B  A  B  A  A  .  B  B  B  .  .  B  .  A
+B  B  A  A  .  .  A  A  B  B  A  .  .  A  B  A
+.  .  .  .  A  A  B  A  B  A  B  B  A  B  B  B
+A  A  A  A  A  B  B  B  A  A  B  .  A  A  A  B
+A  A  A  A  .  A  A  B  .  A  B  B  B  .  A  A
+.  B  .  .  .  A  .  A  B  A  B  .  .  B  A  B
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+Autotest_ABoardGame.autoRandTestOnce: ABGResult = >Bob<
+
+<-- END TEST #13
+
+
+TEST #14 BEGIN -->
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [18 | 9]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=8, TLy_index=8) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [2 | 1]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #1. Returning ...
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [18 | 9]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+.  A  .  B  B  B  A  .  .  A  .  A  .  .  A  A  A  A
+B  B  B  .  A  A  .  B  .  B  B  .  B  A  .  A  B  .
+A  B  B  .  B  .  .  A  A  .  B  A  B  B  B  B  B  A
+B  A  A  B  .  .  .  .  B  .  .  .  A  .  B  A  A  .
+B  B  A  .  .  .  A  .  .  B  .  .  B  .  B  .  B  B
+.  B  .  B  .  B  A  .  A  A  .  .  .  A  B  B  .  .
+.  .  A  A  B  .  A  B  .  .  B  A  B  B  A  .  B  .
+.  A  .  B  B  .  .  A  A  A  B  .  A  .  .  B  A  .
+A  .  A  A  B  B  B  B  B  A  .  A  .  .  B  .  B  .
+A  B  B  A  B  A  B  .  .  A  B  .  A  .  B  B  B  .
+B  .  .  A  A  A  B  B  B  .  A  B  A  B  A  .  A  B
+A  A  B  .  B  B  B  B  .  B  .  .  .  B  A  .  A  .
+A  .  B  B  B  .  .  .  .  A  .  A  B  B  B  .  A  B
+B  .  B  A  .  B  A  A  B  .  .  .  B  A  A  B  .  B
+A  B  B  B  A  .  B  A  B  B  A  B  A  A  A  B  B  B
+A  .  A  .  A  B  B  .  .  A  .  B  .  A  B  A  B  B
+A  .  B  .  .  B  A  B  A  .  B  B  B  .  .  B  A  .
+A  B  B  .  .  A  .  B  B  .  B  .  .  A  .  B  B  B
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+Autotest_ABoardGame.autoRandTestOnce: ABGResult = >Alice<
+
+<-- END TEST #14
+
+
+TEST #15 BEGIN -->
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [14 | 7]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=6, TLy_index=6) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [0 | 2]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #1. Returning ...
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [14 | 7]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+B  A  .  .  .  B  B  B  A  B  A  .  B  A
+.  .  .  A  A  A  A  .  A  A  A  .  A  A
+B  .  .  A  A  B  B  B  B  .  B  B  B  .
+.  A  A  A  A  .  A  A  .  B  A  B  .  .
+A  B  B  .  A  B  A  A  .  .  B  .  .  A
+B  A  B  .  B  B  .  A  .  .  .  B  .  A
+A  B  .  .  .  B  B  .  A  .  A  .  B  B
+A  A  B  B  .  .  .  B  .  B  .  A  A  A
+.  B  A  .  B  .  A  B  A  .  A  A  .  B
+A  .  B  .  A  B  .  B  B  A  B  A  B  B
+B  B  .  B  B  B  A  B  .  B  A  B  A  .
+A  .  B  .  A  B  A  A  .  A  A  .  A  B
+A  .  A  B  B  .  .  B  .  .  .  A  B  .
+.  A  B  B  A  .  A  B  .  .  .  .  A  B
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+Autotest_ABoardGame.autoRandTestOnce: ABGResult = >Bob<
+
+<-- END TEST #15
+
+
+TEST #16 BEGIN -->
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [10 | 5]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=4, TLy_index=4) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [0 | 2]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #1. Returning ...
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [10 | 5]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+B  A  B  A  B  A  .  A  .  A
+B  A  B  .  .  .  A  .  B  A
+.  .  .  B  A  A  B  A  B  .
+B  B  A  A  A  B  B  .  .  B
+.  A  B  B  B  .  B  .  A  .
+.  A  .  A  B  .  A  .  A  B
+B  .  B  A  B  .  .  B  B  A
+B  A  A  .  A  B  A  B  A  B
+.  .  .  B  .  B  .  A  B  B
+A  B  .  B  A  A  B  B  .  .
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+Autotest_ABoardGame.autoRandTestOnce: ABGResult = >Bob<
+
+<-- END TEST #16
+
+
+TEST #17 BEGIN -->
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [42 | 21]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=20, TLy_index=20) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [1 | 2]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #1. Returning ...
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [42 | 21]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+A  B  .  B  B  .  A  A  A  .  .  .  B  .  .  .  A  A  .  A  .  .  A  .  A  B  .  .  A  .  B  B  B  B  B  B  A  .  B  .  .  A
+B  .  A  B  A  B  A  A  B  B  A  B  A  B  A  .  B  A  .  A  .  A  A  B  B  .  A  B  .  A  .  A  B  .  A  B  B  B  A  A  B  .
+B  A  B  .  B  A  A  A  B  A  .  B  A  B  B  .  .  A  A  B  B  B  .  .  .  B  A  .  A  .  .  .  B  A  .  A  A  .  B  A  B  .
+B  B  B  A  .  .  .  .  .  .  .  A  B  .  A  B  .  .  .  A  .  B  A  .  .  .  B  B  .  A  B  A  A  B  A  B  B  .  .  A  .  B
+A  A  .  B  B  A  .  B  .  .  A  A  .  .  A  B  A  .  A  B  A  B  A  .  .  .  .  .  A  A  A  .  B  B  B  A  A  A  A  B  B  A
+B  .  .  A  B  A  A  .  B  .  .  B  B  B  .  .  .  .  B  .  B  B  B  B  .  B  B  A  B  A  B  .  .  A  A  B  .  .  A  B  B  A
+.  A  .  .  A  A  A  A  B  B  A  B  B  .  A  B  A  A  .  A  B  A  B  A  .  A  B  B  A  .  B  .  A  B  .  B  .  .  B  A  .  A
+.  .  B  A  B  A  A  B  B  A  B  B  .  B  B  B  A  .  .  .  A  B  A  B  B  A  A  .  B  B  B  B  B  A  B  B  .  B  .  A  B  B
+A  A  A  .  B  B  .  B  .  .  B  .  A  A  .  A  .  B  A  A  .  A  B  A  .  B  .  A  .  .  A  B  A  B  A  .  A  B  B  B  .  A
+B  .  .  B  A  A  .  B  .  A  A  A  .  .  .  A  .  A  B  .  B  .  B  A  .  .  .  .  A  B  .  B  B  B  B  B  A  B  A  B  A  A
+A  .  B  A  B  B  A  .  B  B  .  A  B  B  A  .  .  B  B  A  B  A  A  B  .  A  A  A  A  B  .  A  B  B  .  .  .  B  A  B  B  A
+.  B  B  A  .  .  B  A  B  .  A  A  .  .  .  .  B  B  A  A  .  .  B  .  B  A  .  B  A  B  A  .  B  A  A  B  .  B  A  B  .  .
+A  A  .  B  B  A  .  .  A  .  B  B  B  A  A  .  .  .  A  .  A  A  B  B  B  B  B  A  .  .  A  .  B  .  .  B  .  .  B  B  .  B
+A  B  A  A  .  A  B  A  .  B  A  .  .  .  B  B  A  A  .  .  .  A  B  .  A  B  B  B  .  .  A  .  A  .  .  A  A  B  .  A  .  B
+A  B  B  B  A  .  .  A  .  B  B  .  B  .  .  B  .  A  .  .  A  .  B  A  .  A  .  B  B  .  A  B  A  A  A  .  A  B  B  B  B  B
+A  B  A  A  A  A  A  B  B  B  B  .  B  A  A  A  B  .  .  B  .  A  A  A  .  A  B  A  A  B  .  A  A  .  .  .  A  .  .  .  B  .
+A  .  A  A  .  A  .  A  .  B  .  A  .  A  A  A  A  A  B  .  A  A  B  A  .  B  B  B  A  .  A  .  A  .  .  B  .  .  A  B  B  A
+B  B  A  A  .  B  B  A  B  B  A  B  .  A  A  .  B  A  .  A  .  A  A  .  A  .  B  .  A  B  A  A  B  A  .  A  A  .  B  .  .  .
+B  .  B  B  A  B  A  .  A  .  B  A  A  A  A  B  .  .  A  B  .  .  B  A  .  B  B  A  .  B  .  A  B  A  B  B  A  B  .  .  .  A
+B  A  .  B  .  B  .  B  .  B  B  A  A  .  A  B  .  B  A  A  A  B  A  B  B  A  .  .  A  B  A  B  .  B  B  A  B  B  B  A  A  A
+.  A  B  B  .  .  A  .  .  A  B  .  A  .  A  A  .  .  B  A  B  A  B  A  A  B  B  A  A  A  .  A  .  .  .  A  A  .  A  A  B  B
+.  .  .  A  B  B  A  A  B  .  B  .  .  B  B  A  A  A  A  A  .  B  A  B  .  A  .  .  A  A  B  B  .  A  B  B  A  A  A  .  .  .
+.  A  B  .  A  A  B  .  .  .  .  A  B  A  B  B  A  A  .  A  .  B  B  A  A  B  A  .  A  A  A  A  A  .  .  A  .  .  A  .  B  B
+A  B  B  B  B  A  .  .  .  A  A  .  .  B  .  B  .  B  .  .  .  B  .  B  .  .  B  B  B  A  A  .  .  B  A  .  B  .  .  A  .  A
+A  A  A  B  A  B  B  B  A  B  .  B  .  .  .  .  B  .  B  B  A  .  A  A  A  B  A  .  .  A  B  .  .  B  B  .  B  B  B  A  .  .
+A  B  A  A  .  B  A  B  A  A  B  B  A  B  A  .  A  .  A  .  .  A  .  .  .  B  B  .  B  .  A  B  B  B  .  B  A  A  B  .  B  A
+.  B  B  A  A  .  .  B  B  .  .  A  .  .  .  A  A  A  .  A  A  A  .  .  .  .  .  B  B  A  A  A  A  .  B  A  A  .  A  B  A  .
+B  B  B  B  B  .  .  .  A  A  .  B  .  B  .  .  B  B  A  A  A  A  .  .  A  A  B  B  A  B  A  B  .  A  B  B  A  B  A  .  .  B
+A  .  A  B  .  .  B  B  A  B  B  A  .  A  B  .  B  A  B  A  .  B  A  B  B  .  A  B  B  .  B  A  B  B  A  A  B  B  A  .  A  B
+A  .  .  .  B  B  .  B  A  .  B  B  .  B  B  B  A  A  .  A  .  B  .  A  B  B  A  A  A  .  A  .  A  A  B  A  B  B  A  B  B  A
+.  B  .  A  .  .  B  .  A  A  A  A  .  .  .  .  B  .  A  B  A  A  .  B  A  B  .  B  A  .  .  A  B  B  B  B  A  B  .  A  .  B
+B  A  .  A  B  .  B  .  A  A  B  .  A  B  .  B  .  B  .  A  .  B  A  .  B  A  A  B  B  .  A  A  .  .  B  .  .  .  .  A  A  A
+.  B  .  .  B  .  .  .  .  A  B  .  B  A  .  .  .  A  B  .  A  A  A  A  .  A  A  .  B  .  B  B  A  B  .  B  A  B  B  B  B  B
+A  .  B  A  A  B  .  .  A  B  .  A  A  B  B  B  .  A  .  .  A  .  .  .  .  A  A  A  B  B  B  A  A  .  .  A  .  .  A  B  .  .
+.  .  .  .  B  A  A  .  B  B  .  .  A  B  A  B  A  .  A  B  A  .  .  .  .  A  .  A  B  .  A  A  .  B  A  .  A  .  .  A  A  .
+.  A  B  B  B  B  A  A  B  A  B  A  B  A  .  A  A  A  B  .  A  .  A  B  .  B  A  A  A  B  A  .  B  B  .  .  B  A  .  A  A  A
+A  .  B  .  A  A  .  A  .  B  .  B  B  A  .  .  .  .  A  .  .  A  .  B  .  .  A  A  .  A  A  A  B  A  B  B  .  A  B  A  B  A
+.  .  A  A  A  .  .  B  A  .  .  B  A  A  .  A  .  A  .  B  B  .  A  B  .  B  .  B  .  .  A  A  A  .  B  A  A  .  .  A  B  A
+.  B  B  A  .  A  B  .  A  B  A  .  .  A  B  .  A  .  A  B  .  B  B  .  A  B  .  .  .  A  A  .  A  B  .  .  A  .  B  B  A  A
+.  .  .  B  A  A  .  B  B  A  .  .  B  A  .  B  .  B  B  B  .  .  A  B  B  B  A  B  B  B  A  .  A  B  .  .  A  B  B  B  A  A
+.  .  .  B  A  B  A  B  .  A  .  B  A  .  B  A  A  .  A  A  A  .  A  A  B  .  B  .  B  B  A  .  B  .  A  A  B  A  B  B  B  A
+.  .  .  .  A  .  A  .  B  B  B  A  A  A  .  .  .  A  A  A  A  B  A  .  .  B  .  A  B  .  B  B  B  .  .  A  A  .  B  .  .  B
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+Autotest_ABoardGame.autoRandTestOnce: ABGResult = >Bob<
+
+<-- END TEST #17
+
+
+TEST #18 BEGIN -->
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [16 | 8]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=7, TLy_index=7) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [2 | 0]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #1. Returning ...
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [16 | 8]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+B  B  B  B  .  B  .  B  A  B  A  .  B  B  .  .
+.  .  .  B  .  A  .  B  A  A  B  B  A  B  A  B
+.  B  .  B  B  A  .  .  .  B  A  A  A  A  B  B
+B  .  .  .  .  A  A  A  .  .  A  .  .  A  B  B
+A  .  A  .  .  B  A  .  A  A  B  A  .  .  B  A
+B  .  .  A  .  B  .  .  B  B  B  .  .  A  .  B
+A  .  .  B  A  .  .  A  B  .  .  B  B  .  A  A
+B  A  A  .  A  A  B  .  A  B  A  A  .  B  A  A
+A  .  A  A  .  A  .  .  A  .  B  .  .  A  A  .
+B  B  B  B  .  A  B  .  A  .  A  .  B  B  A  A
+.  B  B  .  .  .  A  A  A  A  .  B  B  .  A  A
+B  B  .  B  .  B  B  A  B  A  A  A  .  A  B  B
+.  B  .  A  B  A  A  B  A  A  A  B  A  A  A  B
+B  A  B  .  .  .  A  B  A  B  A  B  .  A  B  .
+.  A  B  .  .  A  B  A  B  A  A  .  A  .  .  B
+A  .  B  B  .  B  B  .  B  B  .  A  .  B  B  A
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+Autotest_ABoardGame.autoRandTestOnce: ABGResult = >Alice<
+
+<-- END TEST #18
+
+
+TEST #19 BEGIN -->
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [24 | 12]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=11, TLy_index=11) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [1 | 1]
+ABoardGame.inspectRegion: inspectRegion(curregnum=2, TLx_index=10, TLy_index=10) ... BEGINS -->
+ABoardGame.inspectRegion: [i,j]=[11,11] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[11,12] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[12,11] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[12,12] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [1 | 6]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #2. Returning ...
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [24 | 12]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+B  .  .  B  A  B  B  .  A  B  B  B  A  B  B  B  .  B  A  B  .  .  A  .
+.  B  B  A  A  A  .  .  .  .  .  A  .  A  .  A  .  .  B  A  .  A  A  A
+B  B  A  A  A  .  A  B  B  A  B  .  A  B  B  A  B  .  .  B  B  A  B  .
+B  A  B  .  A  A  .  B  A  A  B  B  A  .  B  A  .  B  .  .  B  .  .  B
+A  B  B  .  B  .  B  B  A  A  B  A  A  A  A  A  A  A  .  .  .  .  A  .
+B  B  B  A  B  .  B  .  B  .  .  .  B  .  .  B  .  A  B  .  A  A  .  .
+A  B  B  A  A  .  .  A  B  .  B  A  A  B  .  A  .  .  B  A  B  A  B  B
+A  A  A  B  B  A  .  A  B  .  .  .  B  A  .  .  A  B  B  .  B  .  A  B
+A  B  A  B  B  .  B  A  .  A  .  .  B  A  .  B  A  A  B  B  B  A  .  B
+A  .  A  A  .  .  .  B  A  .  A  A  .  A  B  .  A  .  .  B  A  .  A  .
+B  A  .  A  A  B  .  A  B  .  B  .  .  B  A  A  A  B  .  .  .  .  B  .
+B  .  A  .  A  A  B  A  .  A  B  .  .  B  A  B  A  A  B  A  .  .  A  .
+B  B  A  B  A  B  .  .  B  A  B  B  A  .  .  B  B  A  A  B  .  A  A  B
+B  A  B  .  A  B  .  .  B  A  A  B  .  .  A  A  A  B  B  .  A  B  B  A
+B  A  .  .  .  B  .  B  B  .  A  A  A  A  .  A  A  .  .  .  B  A  B  .
+A  .  A  B  .  B  B  .  .  A  A  A  B  A  A  .  A  .  A  A  B  A  A  A
+.  A  B  A  B  B  .  B  .  A  .  .  B  B  B  A  B  A  B  .  .  B  B  A
+.  A  B  .  .  B  A  .  .  A  B  B  .  A  B  A  B  .  B  B  A  B  B  .
+A  A  B  A  .  B  A  A  .  B  B  B  .  .  B  A  .  .  .  B  .  A  B  A
+.  A  A  A  A  .  .  B  B  .  B  .  .  A  A  B  A  B  .  A  .  .  B  B
+A  A  .  B  B  A  .  A  .  B  A  B  A  .  A  .  B  .  A  .  B  .  B  .
+.  B  B  B  B  A  A  A  B  B  .  A  A  B  .  B  A  A  .  B  .  B  B  A
+B  .  .  .  .  .  A  B  B  A  .  A  .  A  .  .  A  A  A  B  A  .  .  .
+A  B  .  A  .  A  .  A  A  A  A  B  A  B  A  .  B  B  B  .  .  .  B  .
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+Autotest_ABoardGame.autoRandTestOnce: ABGResult = >Bob<
+
+<-- END TEST #19
+
+
+TEST #20 BEGIN -->
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [34 | 17]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=16, TLy_index=16) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [1 | 1]
+ABoardGame.inspectRegion: inspectRegion(curregnum=2, TLx_index=15, TLy_index=15) ... BEGINS -->
+ABoardGame.inspectRegion: [i,j]=[16,16] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[16,17] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[17,16] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[17,17] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [4 | 3]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #2. Returning ...
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [34 | 17]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+A  A  B  B  .  A  B  .  A  .  A  .  A  .  A  A  B  A  B  A  A  B  .  A  A  A  .  A  .  .  A  A  A  B
+B  .  B  .  A  A  .  .  A  B  .  A  B  .  A  .  A  B  .  .  B  .  B  B  A  B  B  A  .  A  B  A  .  B
+A  B  .  .  .  B  A  A  A  A  A  A  .  A  .  A  .  .  A  B  A  .  B  .  B  .  .  B  .  A  A  .  A  .
+B  .  A  B  .  B  B  A  B  B  B  A  B  A  A  .  B  .  A  B  A  A  A  .  B  .  .  B  A  A  .  A  .  A
+B  .  .  A  .  B  .  .  A  .  B  B  B  B  B  A  .  A  .  .  B  A  .  B  A  .  .  .  .  A  B  B  A  B
+.  A  .  A  .  B  B  B  A  A  B  .  B  A  A  A  B  .  A  .  B  A  A  B  A  A  .  A  A  .  A  A  B  A
+B  A  A  .  B  B  B  A  A  .  A  A  B  B  B  B  .  .  A  A  .  B  A  B  .  .  .  B  B  A  .  A  B  B
+B  A  A  B  B  .  B  A  A  A  B  A  .  A  B  B  .  B  A  A  A  A  .  .  .  B  .  A  .  A  .  .  B  .
+A  A  B  B  B  A  .  .  B  .  .  .  A  B  .  A  A  B  A  B  B  B  B  B  B  .  A  A  B  .  B  .  B  .
+A  A  .  B  .  .  A  A  B  .  .  A  A  A  A  .  A  A  B  A  B  B  .  A  .  .  A  B  A  .  B  A  A  B
+B  B  A  B  .  B  A  A  A  B  B  B  B  .  .  .  .  B  A  B  A  B  B  B  .  A  .  .  A  .  B  B  A  .
+B  .  B  B  B  .  A  A  B  B  B  B  A  A  B  B  .  .  .  .  A  A  A  B  .  .  .  A  A  A  .  A  A  B
+B  A  A  A  A  B  B  A  .  .  A  B  .  B  A  B  .  .  B  A  .  B  B  A  .  B  A  .  A  A  B  B  A  B
+.  A  B  B  .  B  B  A  A  A  B  A  .  A  .  B  A  A  B  A  .  A  B  A  B  B  A  B  .  B  B  .  B  B
+.  A  A  B  .  A  .  .  A  B  B  B  .  A  .  B  A  B  .  .  .  B  B  A  A  B  B  .  A  B  .  .  .  B
+A  .  B  .  B  B  A  A  .  A  B  .  B  A  .  A  B  A  .  B  .  A  B  .  B  B  B  .  B  B  B  .  .  B
+.  .  A  B  A  B  .  .  .  B  B  A  .  B  A  A  A  .  .  B  .  .  B  B  B  .  .  A  B  A  .  .  A  A
+A  .  .  A  A  A  B  A  B  A  A  A  .  A  .  B  B  .  .  A  .  .  A  .  .  A  .  B  A  B  B  .  .  B
+A  A  A  .  .  .  .  .  B  B  A  A  A  B  A  A  B  .  .  .  B  A  .  .  A  .  A  A  .  .  B  B  B  A
+.  .  A  .  A  A  B  A  B  B  .  .  .  B  A  .  .  .  .  .  A  .  A  B  .  .  B  .  .  B  A  B  B  A
+B  B  A  .  .  .  B  B  .  A  A  A  A  .  .  A  A  B  B  B  .  A  B  .  A  B  B  .  A  .  B  A  B  .
+.  .  .  A  A  .  B  .  A  A  A  B  .  B  .  .  B  B  A  .  A  B  A  B  .  B  B  B  A  .  .  .  .  A
+A  .  A  .  B  B  A  A  .  B  B  B  B  .  .  B  B  .  A  B  .  B  .  B  A  .  B  A  B  A  A  B  B  B
+B  .  B  B  A  B  .  .  B  B  .  A  .  B  B  .  B  A  .  B  B  B  A  .  .  .  A  A  .  .  A  A  A  A
+B  .  .  A  B  .  B  A  A  A  B  .  .  .  B  .  .  A  B  .  A  .  .  B  .  A  A  .  A  B  B  .  A  B
+.  B  .  A  B  .  A  B  B  A  B  .  .  A  B  A  .  .  B  A  .  B  A  A  A  A  B  B  A  B  B  .  .  B
+.  .  .  B  .  B  .  .  B  B  A  .  B  .  A  A  B  .  A  .  B  B  B  B  .  A  B  B  A  A  B  B  .  B
+A  .  A  B  A  .  A  A  A  B  A  B  .  B  B  A  .  .  B  A  .  B  B  B  B  B  A  B  B  A  A  B  A  A
+.  B  .  A  B  A  B  B  B  .  B  B  B  .  A  A  B  B  A  .  B  .  B  B  .  .  .  .  .  .  B  B  A  B
+.  .  A  B  B  B  B  B  A  B  A  .  .  B  B  A  .  B  B  A  B  A  A  A  A  B  B  B  .  B  B  .  B  .
+.  A  A  .  A  .  A  A  B  .  B  A  A  A  B  B  A  .  A  .  A  .  .  .  B  .  .  .  B  .  A  A  B  .
+B  B  .  .  A  .  A  A  B  A  .  A  B  A  A  A  A  B  .  B  .  A  A  B  B  B  .  B  B  .  .  B  B  A
+.  A  B  B  B  A  .  .  B  .  A  A  A  .  B  A  B  B  B  A  A  B  A  B  A  .  A  B  B  B  B  A  .  B
+B  A  .  .  .  B  B  .  B  B  A  B  A  A  .  A  B  A  .  B  A  A  .  A  A  .  A  A  B  .  A  .  B  .
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+Autotest_ABoardGame.autoRandTestOnce: ABGResult = >Alice<
+
+<-- END TEST #20
+
+
+
+
+
+Autotest_ABoardGame.autoSpecificTests: boards.Count() = >6< ... boards.Length = >6<
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [6 | 3]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+.  .  .  .  .  A
+.  .  .  .  .  .
+.  .  A  .  .  .
+.  .  .  B  .  .
+.  .  .  .  .  .
+.  .  .  .  .  .
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [6 | 3]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=2, TLy_index=2) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [1 | 1]
+ABoardGame.inspectRegion: inspectRegion(curregnum=2, TLx_index=1, TLy_index=1) ... BEGINS -->
+ABoardGame.inspectRegion: [i,j]=[2,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[2,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[3,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[3,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [0 | 0]
+ABoardGame.inspectRegion: inspectRegion(curregnum=3, TLx_index=0, TLy_index=0) ... BEGINS -->
+ABoardGame.inspectRegion: [i,j]=[1,1] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[1,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[1,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[1,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[2,1] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[2,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[2,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[2,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[3,1] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[3,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[3,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[3,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[4,1] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[4,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[4,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[4,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [1 | 0]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #3. Returning ...
+Autotest_ABoardGame.autoSpecificTests: ABGResult = >Alice<
+
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [4 | 2]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+A  A  A  A
+A  .  B  A
+A  .  .  A
+A  A  A  A
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [4 | 2]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=1, TLy_index=1) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [0 | 1]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #1. Returning ...
+Autotest_ABoardGame.autoSpecificTests: ABGResult = >Bob<
+
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [2 | 1]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+.  .
+.  .
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [2 | 1]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=0, TLy_index=0) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [0 | 0]
+ABoardGame.whoWins: No Definitive Winner found in ANY/ALL Regions. Returning ...
+Autotest_ABoardGame.autoSpecificTests: ABGResult = >Draw<
+
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [14 | 7]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+B  B  B  .  .  B  A  B  .  .  .  B  .  B
+.  A  A  A  A  A  A  A  A  A  A  A  A  .
+A  A  .  A  A  .  A  B  .  .  A  .  A  B
+.  .  .  .  .  .  .  .  .  .  B  .  A  B
+.  A  .  .  B  B  A  B  .  A  .  B  A  B
+.  A  B  .  B  .  .  .  .  .  .  .  A  .
+.  A  .  .  A  .  A  B  .  A  .  .  A  B
+.  A  B  A  A  .  B  A  .  .  .  B  A  .
+B  A  A  A  B  .  .  .  .  .  A  B  A  .
+.  A  .  .  .  .  B  .  .  A  .  .  B  .
+B  .  .  .  B  .  .  .  .  B  .  .  A  .
+B  A  .  B  .  .  A  .  A  B  A  .  A  .
+B  A  A  A  A  .  A  A  A  A  A  .  A  .
+B  .  B  .  B  .  B  B  .  B  .  .  .  .
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [14 | 7]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=6, TLy_index=6) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [2 | 2]
+ABoardGame.inspectRegion: inspectRegion(curregnum=2, TLx_index=5, TLy_index=5) ... BEGINS -->
+ABoardGame.inspectRegion: [i,j]=[6,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[6,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[7,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[7,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [0 | 0]
+ABoardGame.inspectRegion: inspectRegion(curregnum=3, TLx_index=4, TLy_index=4) ... BEGINS -->
+ABoardGame.inspectRegion: [i,j]=[5,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[5,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[5,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[5,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[6,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[6,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[6,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[6,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[7,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[7,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[7,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[7,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[8,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[8,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[8,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[8,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [6 | 6]
+ABoardGame.inspectRegion: inspectRegion(curregnum=4, TLx_index=3, TLy_index=3) ... BEGINS -->
+ABoardGame.inspectRegion: [i,j]=[4,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[4,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[4,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[4,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[4,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[4,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[5,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[5,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[5,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[5,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[5,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[5,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[6,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[6,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[6,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[6,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[6,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[6,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[7,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[7,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[7,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[7,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[7,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[7,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[8,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[8,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[8,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[8,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[8,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[8,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[9,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[9,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[9,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[9,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[9,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[9,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [3 | 3]
+ABoardGame.inspectRegion: inspectRegion(curregnum=5, TLx_index=2, TLy_index=2) ... BEGINS -->
+ABoardGame.inspectRegion: [i,j]=[3,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[3,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[3,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[3,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[3,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[3,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[3,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[3,10] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[4,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[4,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[4,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[4,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[4,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[4,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[4,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[4,10] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[5,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[5,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[5,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[5,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[5,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[5,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[5,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[5,10] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[6,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[6,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[6,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[6,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[6,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[6,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[6,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[6,10] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[7,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[7,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[7,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[7,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[7,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[7,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[7,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[7,10] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[8,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[8,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[8,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[8,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[8,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[8,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[8,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[8,10] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[9,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[9,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[9,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[9,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[9,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[9,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[9,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[9,10] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[10,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[10,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[10,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[10,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[10,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[10,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[10,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[10,10] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [8 | 8]
+ABoardGame.inspectRegion: inspectRegion(curregnum=6, TLx_index=1, TLy_index=1) ... BEGINS -->
+ABoardGame.inspectRegion: [i,j]=[2,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[2,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[2,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[2,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[2,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[2,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[2,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[2,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[2,10] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[2,11] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[3,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[3,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[3,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[3,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[3,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[3,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[3,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[3,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[3,10] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[3,11] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[4,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[4,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[4,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[4,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[4,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[4,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[4,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[4,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[4,10] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[4,11] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[5,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[5,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[5,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[5,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[5,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[5,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[5,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[5,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[5,10] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[5,11] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[6,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[6,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[6,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[6,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[6,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[6,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[6,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[6,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[6,10] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[6,11] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[7,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[7,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[7,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[7,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[7,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[7,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[7,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[7,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[7,10] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[7,11] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[8,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[8,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[8,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[8,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[8,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[8,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[8,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[8,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[8,10] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[8,11] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[9,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[9,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[9,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[9,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[9,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[9,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[9,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[9,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[9,10] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[9,11] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[10,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[10,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[10,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[10,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[10,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[10,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[10,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[10,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[10,10] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[10,11] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[11,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[11,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[11,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[11,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[11,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[11,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[11,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[11,9] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[11,10] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [i,j]=[11,11] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #6.
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [39 | 1]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #6. Returning ...
+Autotest_ABoardGame.autoSpecificTests: ABGResult = >Alice<
+
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [12 | 6]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+.  .  A  .  .  A  A  A  .  .  A  A
+A  B  A  B  B  .  .  A  A  A  A  A
+A  B  B  B  B  B  B  B  B  B  A  .
+A  A  B  B  B  A  B  A  B  B  A  A
+.  .  .  B  A  B  A  B  A  B  B  A
+B  .  B  A  .  .  A  .  B  B  A  .
+A  A  .  A  .  .  B  .  A  B  .  B
+.  .  B  A  .  B  .  A  A  B  A  A
+.  .  A  B  A  B  B  B  A  B  A  .
+.  A  B  B  .  B  B  B  B  B  A  A
+A  B  A  A  A  .  A  A  .  A  .  A
+A  .  .  A  A  A  .  A  A  A  .  A
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [12 | 6]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=5, TLy_index=5) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [1 | 1]
+ABoardGame.inspectRegion: inspectRegion(curregnum=2, TLx_index=4, TLy_index=4) ... BEGINS -->
+ABoardGame.inspectRegion: [i,j]=[5,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[5,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[6,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[6,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [3 | 3]
+ABoardGame.inspectRegion: inspectRegion(curregnum=3, TLx_index=3, TLy_index=3) ... BEGINS -->
+ABoardGame.inspectRegion: [i,j]=[4,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[4,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[4,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[4,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[5,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[5,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[5,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[5,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[6,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[6,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[6,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[6,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[7,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[7,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[7,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[7,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [10 | 10]
+ABoardGame.inspectRegion: inspectRegion(curregnum=4, TLx_index=2, TLy_index=2) ... BEGINS -->
+ABoardGame.inspectRegion: [i,j]=[3,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[3,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[3,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[3,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[3,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[3,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[4,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[4,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[4,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[4,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[4,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[4,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[5,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[5,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[5,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[5,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[5,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[5,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[6,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[6,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[6,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[6,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[6,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[6,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[7,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[7,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[7,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[7,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[7,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[7,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[8,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[8,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[8,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[8,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[8,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[8,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [1 | 24]
+ABoardGame.whoWins: Definitve-Winner found in Current-Region #4. Returning ...
+Autotest_ABoardGame.autoSpecificTests: ABGResult = >Bob<
+
+Autotest_ABoardGame.displayBoard: board: [numelems | numregs] = [10 | 5]
+Autotest_ABoardGame.displayBoard: board BEGINS -->
+B  .  .  A  B  A  A  B  B  B
+B  .  .  .  .  .  .  .  .  .
+A  .  .  A  .  A  A  .  .  B
+A  .  B  B  B  A  A  .  .  A
+B  .  A  A  A  A  B  .  .  .
+A  .  .  B  B  B  B  B  .  A
+B  .  .  A  B  A  A  B  B  A
+A  .  .  .  .  .  .  B  .  B
+B  .  .  .  .  .  .  A  .  A
+B  A  .  A  A  B  B  B  .  A
+Autotest_ABoardGame.displayBoard: <-- ENDS board
+ABoardGame.whoWins: BEGINS --> [numelems | numregs] = [10 | 5]
+ABoardGame.inspectRegion: inspectRegion(curregnum=1, TLx_index=4, TLy_index=4) ... BEGINS -->
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [2 | 2]
+ABoardGame.inspectRegion: inspectRegion(curregnum=2, TLx_index=3, TLy_index=3) ... BEGINS -->
+ABoardGame.inspectRegion: [i,j]=[4,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[4,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[5,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [i,j]=[5,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #2.
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [6 | 6]
+ABoardGame.inspectRegion: inspectRegion(curregnum=3, TLx_index=2, TLy_index=2) ... BEGINS -->
+ABoardGame.inspectRegion: [i,j]=[3,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[3,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[3,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[3,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[4,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[4,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[4,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[4,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[5,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[5,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[5,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[5,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[6,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[6,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[6,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [i,j]=[6,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #3.
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [4 | 4]
+ABoardGame.inspectRegion: inspectRegion(curregnum=4, TLx_index=1, TLy_index=1) ... BEGINS -->
+ABoardGame.inspectRegion: [i,j]=[2,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[2,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[2,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[2,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[2,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[2,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[3,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[3,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[3,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[3,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[3,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[3,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[4,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[4,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[4,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[4,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[4,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[4,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[5,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[5,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[5,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[5,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[5,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[5,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[6,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[6,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[6,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[6,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[6,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[6,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[7,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[7,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[7,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[7,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[7,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [i,j]=[7,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #4.
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [1 | 1]
+ABoardGame.inspectRegion: inspectRegion(curregnum=5, TLx_index=0, TLy_index=0) ... BEGINS -->
+ABoardGame.inspectRegion: [i,j]=[1,1] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[1,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[1,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[1,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[1,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[1,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[1,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[1,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[2,1] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[2,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[2,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[2,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[2,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[2,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[2,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[2,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[3,1] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[3,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[3,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[3,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[3,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[3,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[3,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[3,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[4,1] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[4,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[4,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[4,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[4,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[4,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[4,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[4,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[5,1] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[5,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[5,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[5,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[5,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[5,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[5,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[5,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[6,1] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[6,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[6,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[6,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[6,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[6,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[6,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[6,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[7,1] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[7,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[7,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[7,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[7,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[7,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[7,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[7,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[8,1] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[8,2] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[8,3] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[8,4] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[8,5] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[8,6] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[8,7] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [i,j]=[8,8] index-pair encountered which belongs to Previous/Lower Region-Numbers. Disregarding for Current-Region #5.
+ABoardGame.inspectRegion: [curreg_alicecount | curreg_bobcount] = [15 | 15]
+ABoardGame.whoWins: No Definitive Winner found in ANY/ALL Regions. Returning ...
+Autotest_ABoardGame.autoSpecificTests: ABGResult = >Draw<
+
