@@ -1,0 +1,5 @@
+C:\Users\raiga\source\repos\TopCoder\TC_ANDEquation_250p\TC_ANDEquation_250p\bin\Release\TC_ANDEquation_250p.exe
+C:\Users\raiga\source\repos\TopCoder\TC_ANDEquation_250p\TC_ANDEquation_250p\bin\Release\TC_ANDEquation_250p.pdb
+C:\Users\raiga\source\repos\TopCoder\TC_ANDEquation_250p\TC_ANDEquation_250p\obj\Release\TC_ANDEquation_250p.csproj.CoreCompileInputs.cache
+C:\Users\raiga\source\repos\TopCoder\TC_ANDEquation_250p\TC_ANDEquation_250p\obj\Release\TC_ANDEquation_250p.exe
+C:\Users\raiga\source\repos\TopCoder\TC_ANDEquation_250p\TC_ANDEquation_250p\obj\Release\TC_ANDEquation_250p.pdb

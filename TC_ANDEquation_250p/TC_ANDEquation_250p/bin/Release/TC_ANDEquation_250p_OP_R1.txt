@@ -1,0 +1,155 @@
+Conducting One Test ... BEGIN -->
+A[] ... BEGINS -->
+Test_ANDEquation.AutoTest_ANDEquation_Once: A = >{328501 , 707432 , 525525 , 81144 , 1032535 , 660461 , 623448 , 927282 , 268050 , 242280 , 191769 , 724947 , 204302 , 695986 , 99861 , 274332 , 827207 , 1017626 , 863910 , 195397 , 131538 , 468098 , 890023 , 861261 , 123750 , 122894 , 937362 , 407290 , 653507 , 461911 , 595906 , 760415 , 770858 , 200706 , 338350 , 371996 , 142578 , 577056 , 974466 , 419016 , 965520 , 540773 , 736906}<
+Test_ANDEquation.AutoTest_ANDEquation_Once: yResult = >-1<
+
+
+Conducting One Random/AutoTest ... <-- END
+
+
+Conducting Multiple Random/Auto Tests ... BEGIN -->
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #1 BEGINS -->
+A[] ... BEGINS -->
+Test_ANDEquation.AutoTest_ANDEquation_Once: A = >{85913 , 98128 , 379926 , 804851 , 27432}<
+Test_ANDEquation.AutoTest_ANDEquation_Once: yResult = >-1<
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #1 <-- ENDS
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #2 BEGINS -->
+A[] ... BEGINS -->
+Test_ANDEquation.AutoTest_ANDEquation_Once: A = >{650362 , 803940 , 160682 , 773060 , 908978 , 865983 , 712839 , 1005968 , 909641 , 771674 , 216157 , 273775 , 854713 , 694948 , 479928 , 1002664 , 3596 , 357635 , 776440 , 131753 , 250151 , 43160 , 444893 , 278451 , 639339 , 779766 , 852792 , 791161 , 37836 , 24765 , 557436 , 651013 , 626074 , 546610 , 994119 , 1005049 , 610175 , 476220 , 477946 , 554587 , 478314 , 619663 , 64824 , 695917 , 749362 , 266998}<
+Test_ANDEquation.AutoTest_ANDEquation_Once: yResult = >-1<
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #2 <-- ENDS
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #3 BEGINS -->
+A[] ... BEGINS -->
+Test_ANDEquation.AutoTest_ANDEquation_Once: A = >{390857 , 638745 , 131824 , 94532 , 22290 , 28411 , 944253 , 713724 , 607201 , 359047 , 930805 , 133721 , 129212 , 13191 , 970252 , 968131 , 884875 , 214237 , 613719 , 696275 , 308103 , 749404 , 523454 , 392488 , 575950 , 928264 , 221852 , 702014 , 679063 , 1026910 , 797550 , 577664 , 372341 , 897573 , 461935 , 152416 , 954587 , 978808 , 535145 , 622601 , 730396 , 881461 , 386917 , 646002}<
+Test_ANDEquation.AutoTest_ANDEquation_Once: yResult = >-1<
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #3 <-- ENDS
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #4 BEGINS -->
+A[] ... BEGINS -->
+Test_ANDEquation.AutoTest_ANDEquation_Once: A = >{342499 , 348734 , 541396 , 556637 , 700106 , 228524 , 481680 , 135642 , 619297 , 622664 , 690027 , 115291 , 787911 , 567156 , 142601 , 855133 , 242239 , 34661 , 628866 , 610071 , 353141 , 809954 , 280214 , 599830 , 817835 , 13543 , 954642 , 727666 , 1039692 , 1014454 , 475216 , 362487 , 926026 , 713117 , 233451}<
+Test_ANDEquation.AutoTest_ANDEquation_Once: yResult = >-1<
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #4 <-- ENDS
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #5 BEGINS -->
+A[] ... BEGINS -->
+Test_ANDEquation.AutoTest_ANDEquation_Once: A = >{729031 , 145377 , 1027531 , 798386 , 315870 , 442021 , 801618 , 274908 , 820483 , 37124 , 166675 , 411652 , 392544 , 816043 , 488156 , 846800 , 806626 , 35931 , 374804 , 581120 , 68519 , 990140 , 787376 , 686562 , 322457 , 802588 , 144525 , 653418}<
+Test_ANDEquation.AutoTest_ANDEquation_Once: yResult = >-1<
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #5 <-- ENDS
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #6 BEGINS -->
+A[] ... BEGINS -->
+Test_ANDEquation.AutoTest_ANDEquation_Once: A = >{327540 , 237840 , 74793 , 333705 , 611646 , 126102 , 96861 , 55705}<
+Test_ANDEquation.AutoTest_ANDEquation_Once: yResult = >-1<
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #6 <-- ENDS
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #7 BEGINS -->
+A[] ... BEGINS -->
+Test_ANDEquation.AutoTest_ANDEquation_Once: A = >{294201 , 959695 , 8335 , 5305 , 827922 , 780711 , 895443 , 542989 , 335122 , 223649 , 526297 , 676990 , 604436 , 890095 , 338313 , 700905 , 511009 , 787465 , 406576 , 340968 , 475929 , 561856 , 297495 , 148200 , 127459 , 492943 , 847859 , 91882 , 77946 , 829472 , 689940 , 391295 , 791095 , 976146 , 790304 , 463684 , 572784 , 63214 , 162218 , 6665 , 839694 , 828042}<
+Test_ANDEquation.AutoTest_ANDEquation_Once: yResult = >-1<
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #7 <-- ENDS
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #8 BEGINS -->
+A[] ... BEGINS -->
+Test_ANDEquation.AutoTest_ANDEquation_Once: A = >{969450 , 127120 , 519032 , 771678 , 396319 , 785055 , 681374 , 100636 , 387211 , 738860 , 763312 , 403124 , 780920 , 662199 , 908710 , 926421 , 334979 , 981426 , 803560 , 465043 , 554224 , 582283 , 135002}<
+Test_ANDEquation.AutoTest_ANDEquation_Once: yResult = >-1<
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #8 <-- ENDS
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #9 BEGINS -->
+A[] ... BEGINS -->
+Test_ANDEquation.AutoTest_ANDEquation_Once: A = >{676864 , 99790 , 923203 , 128121 , 447795 , 625247 , 399911 , 549848 , 696462 , 94389 , 376620 , 21079 , 657002 , 769839 , 451539 , 355401 , 445147 , 728836 , 302729 , 701009 , 27783 , 573021 , 9384 , 850060 , 712648 , 185367 , 875814 , 73813 , 36134 , 362998 , 961817 , 387166 , 1040693 , 633136 , 94814 , 296529 , 910426 , 553252 , 701415 , 810539 , 338949 , 213463 , 755237 , 686530}<
+Test_ANDEquation.AutoTest_ANDEquation_Once: yResult = >-1<
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #9 <-- ENDS
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #10 BEGINS -->
+A[] ... BEGINS -->
+Test_ANDEquation.AutoTest_ANDEquation_Once: A = >{887630 , 269419 , 613715 , 529886 , 448159 , 19895 , 873963 , 279554 , 482567 , 906687 , 103843 , 90405 , 73143 , 464048 , 262428}<
+Test_ANDEquation.AutoTest_ANDEquation_Once: yResult = >-1<
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #10 <-- ENDS
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #11 BEGINS -->
+A[] ... BEGINS -->
+Test_ANDEquation.AutoTest_ANDEquation_Once: A = >{326097 , 513714 , 333463 , 181146 , 1038028 , 28961 , 23865 , 675024 , 155010 , 493550 , 940469 , 27420 , 540765 , 362060 , 862894 , 866359 , 371429 , 564481 , 873592 , 964523 , 262099 , 592502 , 636549 , 343102 , 87854 , 107612 , 558125 , 775024 , 1039546 , 206124 , 837282 , 89204 , 438987 , 12531 , 12852 , 748324 , 421773 , 505384}<
+Test_ANDEquation.AutoTest_ANDEquation_Once: yResult = >-1<
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #11 <-- ENDS
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #12 BEGINS -->
+A[] ... BEGINS -->
+Test_ANDEquation.AutoTest_ANDEquation_Once: A = >{858669 , 245553 , 987265 , 374876 , 1003183 , 128001 , 846542 , 787363 , 120507 , 43793 , 286058 , 767550 , 557236 , 639030 , 346479}<
+Test_ANDEquation.AutoTest_ANDEquation_Once: yResult = >-1<
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #12 <-- ENDS
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #13 BEGINS -->
+A[] ... BEGINS -->
+Test_ANDEquation.AutoTest_ANDEquation_Once: A = >{782169 , 925739 , 1038935 , 93292 , 930416 , 519410 , 297415 , 684053 , 997460 , 704842 , 851265 , 637007 , 528234 , 349208 , 114569 , 444585 , 914620 , 268356 , 14923 , 718969 , 323409 , 217626 , 681941 , 215101 , 289886 , 368824}<
+Test_ANDEquation.AutoTest_ANDEquation_Once: yResult = >-1<
+
+
+Test_ANDEquation.AutoTest_ANDEquation_Multi ... Test #13 <-- ENDS
+
+
+Conducting Multiple Random/Auto Tests ... <-- END
+
+
+Conducting Multiple Selective Manual Tests ... BEGIN -->
+A[] ... BEGINS -->
+Test_ANDEquation.SelManTest_ANDEquation_Multi: AllAs[0] = >{1 , 3 , 5}<
+Test_ANDEquation.SelManTest_ANDEquation_Multi: yResult1 = >1<
+A[] ... BEGINS -->
+Test_ANDEquation.SelManTest_ANDEquation_Multi: AllAs[1] = >{31 , 7}<
+Test_ANDEquation.SelManTest_ANDEquation_Multi: yResult1 = >-1<
+A[] ... BEGINS -->
+Test_ANDEquation.SelManTest_ANDEquation_Multi: AllAs[2] = >{31 , 7 , 7}<
+Test_ANDEquation.SelManTest_ANDEquation_Multi: yResult1 = >7<
+A[] ... BEGINS -->
+Test_ANDEquation.SelManTest_ANDEquation_Multi: AllAs[3] = >{1 , 0 , 0 , 1 , 0 , 1 , 0 , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 1 , 0 , 1 , 0 , 1 , 1 , 0 , 0 , 0 , 1}<
+Test_ANDEquation.SelManTest_ANDEquation_Multi: yResult1 = >0<
+A[] ... BEGINS -->
+Test_ANDEquation.SelManTest_ANDEquation_Multi: AllAs[4] = >{191411 , 256951 , 191411 , 191411 , 191411 , 256951 , 195507 , 191411 , 192435 , 191411 , 191411 , 195511 , 191419 , 191411 , 256947 , 191415 , 191475 , 195579 , 191415 , 191411 , 191483 , 191411 , 191419 , 191475 , 256947 , 191411 , 191411 , 191411 , 191419 , 256947 , 191411 , 191411 , 191411}<
+Test_ANDEquation.SelManTest_ANDEquation_Multi: yResult1 = >191411<
+A[] ... BEGINS -->
+Test_ANDEquation.SelManTest_ANDEquation_Multi: AllAs[5] = >{1362 , 1066 , 1659 , 2010 , 1912 , 1720 , 1851 , 1593 , 1799 , 1805 , 1139 , 1493 , 1141 , 1163 , 1211}<
+Test_ANDEquation.SelManTest_ANDEquation_Multi: yResult1 = >-1<
+A[] ... BEGINS -->
+Test_ANDEquation.SelManTest_ANDEquation_Multi: AllAs[6] = >{2 , 3 , 7 , 19}<
+Test_ANDEquation.SelManTest_ANDEquation_Multi: yResult1 = >-1<
+
+
+Conducting Multiple Selective Manual Tests ... <-- END
