@@ -1,0 +1,5 @@
+C:\Users\raiga\source\repos\TopCoder\TC_ATaleOfThreeCities_500pts\TC_ATaleOfThreeCities_500pts\bin\Release\TC_ATaleOfThreeCities_500pts.exe
+C:\Users\raiga\source\repos\TopCoder\TC_ATaleOfThreeCities_500pts\TC_ATaleOfThreeCities_500pts\bin\Release\TC_ATaleOfThreeCities_500pts.pdb
+C:\Users\raiga\source\repos\TopCoder\TC_ATaleOfThreeCities_500pts\TC_ATaleOfThreeCities_500pts\obj\Release\TC_ATaleOfThreeCities_500pts.csproj.CoreCompileInputs.cache
+C:\Users\raiga\source\repos\TopCoder\TC_ATaleOfThreeCities_500pts\TC_ATaleOfThreeCities_500pts\obj\Release\TC_ATaleOfThreeCities_500pts.exe
+C:\Users\raiga\source\repos\TopCoder\TC_ATaleOfThreeCities_500pts\TC_ATaleOfThreeCities_500pts\obj\Release\TC_ATaleOfThreeCities_500pts.pdb
