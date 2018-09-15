@@ -1,0 +1,444 @@
+AutoTest_ActivateGame.AutoRandSingleTest: grid = >>
+ActivateGame.displayGridBitmap: grid[0] = hb8sm50wq60enxpf8t
+
+ActivateGame.displayGridBitmap: grid[1] = 71fo7t667uj558u46t
+
+ActivateGame.displayGridBitmap: grid[2] = 871xvu8p867v7mh2m3
+
+ActivateGame.displayGridBitmap: grid[3] = y3jkjum3y33l344uo1
+
+ActivateGame.displayGridBitmap: grid[4] = 60k58dby010032t21t
+
+ActivateGame.displayGridBitmap: grid[5] = fp13chvm83dn64jv80
+
+ActivateGame.displayGridBitmap: grid[6] = 6yo0sq7n55855k57o5
+
+ActivateGame.displayGridBitmap: grid[7] = 01wp471mpm1hwft5j8
+
+ActivateGame.displayGridBitmap: grid[8] = 8i5n82ram8184378v8
+
+ActivateGame.displayGridBitmap: grid[9] = j7k7j7ah4xw7d4aa84
+
+ActivateGame.displayGridBitmap: grid[10] = 264v2l6g38244vi8gy
+
+ActivateGame.displayGridBitmap: grid[11] = 0cfgo12xh0v5d6nus0
+
+ActivateGame.displayGridBitmap: grid[12] = hbbs7m4471et00p581
+
+AutoTest_ActivateGame.AutoRandSingleTest: grid = <<
+AutoTest_ActivateGame.AutoRandSingleTest: Result = >4377<
+
+
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Conducting Test#1 -->
+AutoTest_ActivateGame.AutoRandSingleTest: grid = >>
+ActivateGame.displayGridBitmap: grid[0] = ymni16sj685uo
+
+ActivateGame.displayGridBitmap: grid[1] = 311h1rgr8w74m
+
+ActivateGame.displayGridBitmap: grid[2] = 127bedypt6x78
+
+ActivateGame.displayGridBitmap: grid[3] = 5186671vka763
+
+ActivateGame.displayGridBitmap: grid[4] = 1fgfijvfx7gw7
+
+ActivateGame.displayGridBitmap: grid[5] = mg4ubuy73287f
+
+AutoTest_ActivateGame.AutoRandSingleTest: grid = <<
+AutoTest_ActivateGame.AutoRandSingleTest: Result = >1258<
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Test#1 <-- END.
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Conducting Test#2 -->
+AutoTest_ActivateGame.AutoRandSingleTest: grid = >>
+ActivateGame.displayGridBitmap: grid[0] = u7a24h1t03v
+
+ActivateGame.displayGridBitmap: grid[1] = pw80240dvt7
+
+ActivateGame.displayGridBitmap: grid[2] = 6giu7uobhg6
+
+ActivateGame.displayGridBitmap: grid[3] = 78c2y01e0n3
+
+ActivateGame.displayGridBitmap: grid[4] = i273fub04v6
+
+ActivateGame.displayGridBitmap: grid[5] = 8638psrokl1
+
+ActivateGame.displayGridBitmap: grid[6] = 3wwbg1flw8b
+
+ActivateGame.displayGridBitmap: grid[7] = 847eqgb136h
+
+ActivateGame.displayGridBitmap: grid[8] = tokc2f5kr65
+
+AutoTest_ActivateGame.AutoRandSingleTest: grid = <<
+AutoTest_ActivateGame.AutoRandSingleTest: Result = >1723<
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Test#2 <-- END.
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Conducting Test#3 -->
+AutoTest_ActivateGame.AutoRandSingleTest: grid = >>
+ActivateGame.displayGridBitmap: grid[0] = v45u82s172jq0q8
+
+ActivateGame.displayGridBitmap: grid[1] = x0u1tud4ve421m4
+
+ActivateGame.displayGridBitmap: grid[2] = vml6ii4uu780kv7
+
+ActivateGame.displayGridBitmap: grid[3] = rdw268187fb28mo
+
+ActivateGame.displayGridBitmap: grid[4] = hy20qgtmyr778r0
+
+ActivateGame.displayGridBitmap: grid[5] = 65b1xg0i2o6f87m
+
+ActivateGame.displayGridBitmap: grid[6] = r47cm687a7lm418
+
+ActivateGame.displayGridBitmap: grid[7] = k276u222651xcmx
+
+ActivateGame.displayGridBitmap: grid[8] = r8t8hw226633rk2
+
+ActivateGame.displayGridBitmap: grid[9] = 6663ol64jrc7io8
+
+ActivateGame.displayGridBitmap: grid[10] = 0i7q5s4o30jp82s
+
+ActivateGame.displayGridBitmap: grid[11] = 6sutfd8f7g23602
+
+ActivateGame.displayGridBitmap: grid[12] = 3m2gbmd68cm5w4v
+
+ActivateGame.displayGridBitmap: grid[13] = ugh537vo022882o
+
+AutoTest_ActivateGame.AutoRandSingleTest: grid = <<
+AutoTest_ActivateGame.AutoRandSingleTest: Result = >3728<
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Test#3 <-- END.
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Conducting Test#4 -->
+AutoTest_ActivateGame.AutoRandSingleTest: grid = >>
+ActivateGame.displayGridBitmap: grid[0] = d8n055bn03
+
+ActivateGame.displayGridBitmap: grid[1] = 33us0va64w
+
+ActivateGame.displayGridBitmap: grid[2] = cvm2474ey8
+
+ActivateGame.displayGridBitmap: grid[3] = php6x44gof
+
+ActivateGame.displayGridBitmap: grid[4] = o6ya048050
+
+ActivateGame.displayGridBitmap: grid[5] = 436osd0107
+
+ActivateGame.displayGridBitmap: grid[6] = aso24woc02
+
+ActivateGame.displayGridBitmap: grid[7] = 1272ch13s7
+
+ActivateGame.displayGridBitmap: grid[8] = 32ss11e7l0
+
+ActivateGame.displayGridBitmap: grid[9] = 8gpj33mav6
+
+ActivateGame.displayGridBitmap: grid[10] = 436ajh45ye
+
+ActivateGame.displayGridBitmap: grid[11] = 17qe4a5xh8
+
+ActivateGame.displayGridBitmap: grid[12] = 6abb172b1k
+
+ActivateGame.displayGridBitmap: grid[13] = 3f46mjq227
+
+ActivateGame.displayGridBitmap: grid[14] = o10srqto4g
+
+ActivateGame.displayGridBitmap: grid[15] = e5853u6k43
+
+ActivateGame.displayGridBitmap: grid[16] = oabao8u44c
+
+AutoTest_ActivateGame.AutoRandSingleTest: grid = <<
+AutoTest_ActivateGame.AutoRandSingleTest: Result = >2857<
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Test#4 <-- END.
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Conducting Test#5 -->
+AutoTest_ActivateGame.AutoRandSingleTest: grid = >>
+ActivateGame.displayGridBitmap: grid[0] = o8b451e3
+
+ActivateGame.displayGridBitmap: grid[1] = k0m52e7y
+
+ActivateGame.displayGridBitmap: grid[2] = 4fr4e5o8
+
+ActivateGame.displayGridBitmap: grid[3] = 7gw13h84
+
+ActivateGame.displayGridBitmap: grid[4] = kb11u654
+
+ActivateGame.displayGridBitmap: grid[5] = 63446le0
+
+ActivateGame.displayGridBitmap: grid[6] = vdfy38qu
+
+ActivateGame.displayGridBitmap: grid[7] = 36x21m87
+
+ActivateGame.displayGridBitmap: grid[8] = chxu0v2l
+
+ActivateGame.displayGridBitmap: grid[9] = a3i7kp1j
+
+ActivateGame.displayGridBitmap: grid[10] = m5rkltj7
+
+ActivateGame.displayGridBitmap: grid[11] = 4hyjykaw
+
+ActivateGame.displayGridBitmap: grid[12] = 5s0c6kjf
+
+ActivateGame.displayGridBitmap: grid[13] = 073auu46
+
+ActivateGame.displayGridBitmap: grid[14] = u3ijp13o
+
+ActivateGame.displayGridBitmap: grid[15] = 37s07274
+
+ActivateGame.displayGridBitmap: grid[16] = 0v5y7v3e
+
+ActivateGame.displayGridBitmap: grid[17] = 1o5e2640
+
+ActivateGame.displayGridBitmap: grid[18] = sgvldcn6
+
+AutoTest_ActivateGame.AutoRandSingleTest: grid = <<
+AutoTest_ActivateGame.AutoRandSingleTest: Result = >2797<
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Test#5 <-- END.
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Conducting Test#6 -->
+AutoTest_ActivateGame.AutoRandSingleTest: grid = >>
+ActivateGame.displayGridBitmap: grid[0] = 246278uv2m2hg675i6
+
+ActivateGame.displayGridBitmap: grid[1] = 8e5666865wsukpr30j
+
+ActivateGame.displayGridBitmap: grid[2] = i5x0i3m0l27qt40277
+
+ActivateGame.displayGridBitmap: grid[3] = 06ph4b3xn6saqu176o
+
+ActivateGame.displayGridBitmap: grid[4] = 4rgdb025hm0xd71ndi
+
+ActivateGame.displayGridBitmap: grid[5] = jo766ss1i3ss6q61ci
+
+AutoTest_ActivateGame.AutoRandSingleTest: grid = <<
+AutoTest_ActivateGame.AutoRandSingleTest: Result = >1860<
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Test#6 <-- END.
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Conducting Test#7 -->
+AutoTest_ActivateGame.AutoRandSingleTest: grid = >>
+ActivateGame.displayGridBitmap: grid[0] = 2efm44ffcch
+
+ActivateGame.displayGridBitmap: grid[1] = n63n6hfk54k
+
+ActivateGame.displayGridBitmap: grid[2] = wf45ic2vfq2
+
+ActivateGame.displayGridBitmap: grid[3] = n4ibbmjak33
+
+ActivateGame.displayGridBitmap: grid[4] = 7gixvi2aar7
+
+ActivateGame.displayGridBitmap: grid[5] = 7481044ko08
+
+ActivateGame.displayGridBitmap: grid[6] = n58di5ya5u8
+
+ActivateGame.displayGridBitmap: grid[7] = 53403j73ii8
+
+ActivateGame.displayGridBitmap: grid[8] = 4qu82q66bq6
+
+ActivateGame.displayGridBitmap: grid[9] = dbwh0d66khl
+
+ActivateGame.displayGridBitmap: grid[10] = p41n5uul304
+
+AutoTest_ActivateGame.AutoRandSingleTest: grid = <<
+AutoTest_ActivateGame.AutoRandSingleTest: Result = >1931<
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Test#7 <-- END.
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Conducting Test#8 -->
+AutoTest_ActivateGame.AutoRandSingleTest: grid = >>
+ActivateGame.displayGridBitmap: grid[0] = r74ul0gm5b
+
+ActivateGame.displayGridBitmap: grid[1] = 25l483yi08
+
+ActivateGame.displayGridBitmap: grid[2] = y1xtrlx2n6
+
+ActivateGame.displayGridBitmap: grid[3] = 3s86446287
+
+ActivateGame.displayGridBitmap: grid[4] = pk8rsmrj35
+
+AutoTest_ActivateGame.AutoRandSingleTest: grid = <<
+AutoTest_ActivateGame.AutoRandSingleTest: Result = >942<
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Test#8 <-- END.
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Conducting Test#9 -->
+AutoTest_ActivateGame.AutoRandSingleTest: grid = >>
+ActivateGame.displayGridBitmap: grid[0] = 000s52l216nynx7l683
+
+ActivateGame.displayGridBitmap: grid[1] = k1d6ha7781q6exe48xq
+
+ActivateGame.displayGridBitmap: grid[2] = pvq0f4fyb34coka3456
+
+ActivateGame.displayGridBitmap: grid[3] = ls3lcc4i271o6u10e7r
+
+ActivateGame.displayGridBitmap: grid[4] = 128uut6lpcp83u87n87
+
+ActivateGame.displayGridBitmap: grid[5] = 72d5j2o44j5s8v6rq03
+
+ActivateGame.displayGridBitmap: grid[6] = il416dq1ohyhfr805is
+
+ActivateGame.displayGridBitmap: grid[7] = 32v877v7smgrktwvx3m
+
+ActivateGame.displayGridBitmap: grid[8] = 6583grbbwo022506d03
+
+ActivateGame.displayGridBitmap: grid[9] = 642yu44j386p8bumlx7
+
+ActivateGame.displayGridBitmap: grid[10] = y317x38h4v5707pt2kx
+
+ActivateGame.displayGridBitmap: grid[11] = 62wmwl2204242261d0e
+
+AutoTest_ActivateGame.AutoRandSingleTest: grid = <<
+AutoTest_ActivateGame.AutoRandSingleTest: Result = >4072<
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Test#9 <-- END.
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Conducting Test#10 -->
+AutoTest_ActivateGame.AutoRandSingleTest: grid = >>
+ActivateGame.displayGridBitmap: grid[0] = n0g5bpees5r0p
+
+ActivateGame.displayGridBitmap: grid[1] = g0g8scu4bn47u
+
+ActivateGame.displayGridBitmap: grid[2] = ae138550w33h3
+
+ActivateGame.displayGridBitmap: grid[3] = 12i743tg10g2o
+
+ActivateGame.displayGridBitmap: grid[4] = co46ec046e4xj
+
+ActivateGame.displayGridBitmap: grid[5] = 0xc2i6p7o2cdq
+
+ActivateGame.displayGridBitmap: grid[6] = 606c007x75hkc
+
+ActivateGame.displayGridBitmap: grid[7] = s04drql82t3ba
+
+ActivateGame.displayGridBitmap: grid[8] = iyu27gn28pwu5
+
+ActivateGame.displayGridBitmap: grid[9] = wh31p7d5202x5
+
+ActivateGame.displayGridBitmap: grid[10] = 17ch46h5j2722
+
+ActivateGame.displayGridBitmap: grid[11] = a38m08cms6873
+
+ActivateGame.displayGridBitmap: grid[12] = c2u4y63g8tx5q
+
+ActivateGame.displayGridBitmap: grid[13] = 7qju802gw17fb
+
+AutoTest_ActivateGame.AutoRandSingleTest: grid = <<
+AutoTest_ActivateGame.AutoRandSingleTest: Result = >3281<
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Test#10 <-- END.
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Conducting Test#11 -->
+AutoTest_ActivateGame.AutoRandSingleTest: grid = >>
+ActivateGame.displayGridBitmap: grid[0] = xt1nvsm70h3462o
+
+ActivateGame.displayGridBitmap: grid[1] = x112c0rp8078kgq
+
+ActivateGame.displayGridBitmap: grid[2] = me0p2x5dqq3uyeq
+
+ActivateGame.displayGridBitmap: grid[3] = wy02v61063vv4vc
+
+ActivateGame.displayGridBitmap: grid[4] = 3tt37m5rp3v367p
+
+ActivateGame.displayGridBitmap: grid[5] = 4o5qoa2bb5a2p5y
+
+ActivateGame.displayGridBitmap: grid[6] = ju1l0f7mtacei37
+
+ActivateGame.displayGridBitmap: grid[7] = 1nm3l3djpb5r4md
+
+AutoTest_ActivateGame.AutoRandSingleTest: grid = <<
+AutoTest_ActivateGame.AutoRandSingleTest: Result = >2291<
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Test#11 <-- END.
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Conducting Test#12 -->
+AutoTest_ActivateGame.AutoRandSingleTest: grid = >>
+ActivateGame.displayGridBitmap: grid[0] = 4s5c1gk4o4x
+
+ActivateGame.displayGridBitmap: grid[1] = o24vr6i83ow
+
+ActivateGame.displayGridBitmap: grid[2] = ps2folh032f
+
+ActivateGame.displayGridBitmap: grid[3] = b850f7q53j7
+
+ActivateGame.displayGridBitmap: grid[4] = 4x0353u23pl
+
+ActivateGame.displayGridBitmap: grid[5] = 87o810w23h3
+
+AutoTest_ActivateGame.AutoRandSingleTest: grid = <<
+AutoTest_ActivateGame.AutoRandSingleTest: Result = >1122<
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Test#12 <-- END.
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Conducting Test#13 -->
+AutoTest_ActivateGame.AutoRandSingleTest: grid = >>
+ActivateGame.displayGridBitmap: grid[0] = n04jp6q5226k
+
+ActivateGame.displayGridBitmap: grid[1] = v3n88c0yv3qn
+
+ActivateGame.displayGridBitmap: grid[2] = hs22v42k05j2
+
+ActivateGame.displayGridBitmap: grid[3] = fjlg63seq3cg
+
+ActivateGame.displayGridBitmap: grid[4] = 660nr0wg75ek
+
+ActivateGame.displayGridBitmap: grid[5] = 1084l77cx7qr
+
+ActivateGame.displayGridBitmap: grid[6] = c1cau2sa4cv3
+
+ActivateGame.displayGridBitmap: grid[7] = fuyr28dlcj51
+
+ActivateGame.displayGridBitmap: grid[8] = 414d54686qp2
+
+ActivateGame.displayGridBitmap: grid[9] = c5qj52my8e22
+
+ActivateGame.displayGridBitmap: grid[10] = a7l71023s705
+
+ActivateGame.displayGridBitmap: grid[11] = 76a48w1p4j4c
+
+AutoTest_ActivateGame.AutoRandSingleTest: grid = <<
+AutoTest_ActivateGame.AutoRandSingleTest: Result = >2541<
+
+
+AutoTest_ActivateGame.AutoRandMultiTest: Test#13 <-- END.
+
+
+
+
+AutoTest_ActivateGame.AutoTest_SpecificCases: i=0 ... Result = >69<
+
+
+AutoTest_ActivateGame.AutoTest_SpecificCases: i=1 ... Result = >7<
+
+
+AutoTest_ActivateGame.AutoTest_SpecificCases: i=2 ... Result = >118<
+
+
+AutoTest_ActivateGame.AutoTest_SpecificCases: i=3 ... Result = >0<
+
+
+
+
