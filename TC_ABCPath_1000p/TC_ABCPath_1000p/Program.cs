@@ -4,7 +4,7 @@
 // Return Type : int
 // Arg Types : (string[])
 
-// Status on TopCoder: Compiled Successfully; Cleared Initial/Sample Tests; Didn't clear Wider System Tests
+// Status on TopCoder: Compiled Successfully; Cleared Initial/Sample Tests
 // TopCoder Link(see link for Problem Statement): https://arena.topcoder.com/#/u/practiceCode/1527/4329/4678/2/1527
 
 using System;
